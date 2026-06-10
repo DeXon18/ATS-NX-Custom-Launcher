@@ -1,0 +1,21 @@
+# Logs
+logs/
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Archivos temporales de PowerShell
+*.tmp
+*.bak
+
+# Si añadimos ejecutables externos
+.ats_core/tools/*.exe
+
+# Configuraciones locales si decidimos ignorarlas (de momento global.config es útil, tal vez ignorar copias locales)
+# config/global.config
+
+# Ideas y pruebas
+X_Ideas/
+
