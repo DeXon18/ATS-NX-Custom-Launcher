@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Palette xmlns="http://www.ugsolutions.com/Schemas/2001/UGPalettes" schemaVersion="1.0">
+
+  <Presentation name="Master Model Templates (Inch)" bitmap="sheet_and_block.bmp" FileNewTab="ENSAMBLE_ZORROTZ" application="All" UsesMasterModel="No"/>
+
+
+  <PaletteEntry id="d8">
+    <References/>
+    <Presentation name="PLANTILLA_ENSAMBLE_ZORROTZ" description="Ensamble de arranque Zorrotz">
+        <PreviewImage type="UGPart" location="${NX_CLIENTE_CAM_TEMPLATE_PART_METRIC_DIR}Ensamble_arranque_Zorrotz.jpg"/>
+    </Presentation>
+    <ObjectData class="AssemblyTemplate">
+        <Filename>${NX_CLIENTE_CAM_TEMPLATE_PART_METRIC_DIR}Ensamble_arranque_Zorrotz.prt</Filename>  
+	<Units>Metric</Units>
+    </ObjectData>
+  </PaletteEntry>
+  
+
+</Palette>

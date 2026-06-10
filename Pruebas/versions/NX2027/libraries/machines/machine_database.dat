@@ -1,0 +1,67 @@
+###############################################################################
+# machine_database.dat - database file for machine database stored as ascii file
+###############################################################################
+#############################################################################
+##  Data file for the Machine tool
+##
+##
+##  The following key words for Attribute ids are defined
+##
+##  LIBRF   - unique record identifier
+##	T       - Machine type - MDM0101 -Mill machines
+##                         - MDM0104 -TurnMill machines
+##                         - MDM0201 -Lathe machines
+##                         - MDM0204 -MillTurn machines
+##                         - MDM0301 -Wedm machines
+##                         - MDM0901 -Generic machines
+##
+##  MNF     - Manufacturer
+##  DESCR   - Short description ( for example 3 Axis Mill) 
+##  CNTR    - indicating the controller of the machine
+##
+##  POST    - the configuration file name with the list of
+##            postprocessors for this machine 
+##            (The path will be found from the search path environment variable)
+##  RIGID   - Rigidity factor to apply to data from the machining data library
+##            This will normally be a number less than or equal to 1.0
+##  GRAPHICS- Geometry of the kinematic machine tool prt file
+##            (The full path needs to be included)
+##
+##############################################################################
+## REVISIONS
+##   Date             Who              Reason
+##   04-02-04     Jason Detzel         Added Milling Metric Machine tools
+##   04-30-04     Jason Detzel         Added Lathe Metric Machine tools
+##   05-28-04     Jason Detzel         Clarified the descriptions of the machines
+##   10-06-04     Markus Wilmsen       Remove dummy entries used as separators
+##   12-01-04     Jason Detzel         Added sim010101_011 example machine tools
+##   01-04-05     Jason Detzel         Added sim010101_012 INCH example machine tool
+##   25-Oct-05    JM                   Added sim_multi_channel_mm
+##   31-May-06    Jason Detzel         Restructured paths to the dat files for CSE
+##   14-Jun-06    Jason Detzel         Restructured paths to the dat files for CSE
+##   07-Jul-06    rlm                  Add missing fields for both sim010101_012 entries
+##   28-Dec-06    Ramon G. Rodriguez   Fix typo in sim010102_002_mm data entry
+##                                     The lathe machine entry was pointing to 
+##                                     the mill machine
+##   13-Mar-08    Thomas Schulz        Add GRAPHICS attribute and change the set
+##                                     of sample machine tools for NX6
+##   16-Apr-08    Thomas Schulz        cleanup new samples for NX6 IP24
+##   08-Jul-08    David Sommerfeldt    Activated sim11_turn_2ax_fanuc_mm example machine
+##   25-Jul-09    Thomas Schulz        Add sim12 sinumerik sim14 and sim10 for
+##                                     NX7.5 and comment out the old mtools
+##   14-Oct-09    David Sommerfeldt    Cleanup, remove old samples
+##   28-Oct-10    David Sommerfeldt    Add sim15 sinumerik
+##   14-Mar-12    Lili  Li             Add sim16 sinumerik
+##   18-Apr-12    Jerry Yao            Add sim15 fanuc
+##   17-Jul-12    Thomas Schulz        Change type identifier - make consistent with TC
+##############################################################################
+FORMAT LIBRF T DESCR CNTR MNF POST RIGID GRAPHICS
+#--------------------------------------------------------------------------------
+##############################################################################
+DATA|Null Machine|MDM0901|Null Machine|None|-|${UGII_CAM_POST_DIR}template_post.dat|1.000000|
+##############################################################################
+
+#Maquinas Cliente
+DATA|Soraluce_FLP_8000|Soraluce_FLP_8000|Soraluce_FLP_8000|Soraluce_FLP_8000|TNC|${NX_CLIENTE_CAM_LIBRARY_INSTALLED_MACHINES_DIR}Soraluce\Soraluce.dat|1.000000|${NX_CLIENTE_CAM_LIBRARY_INSTALLED_MACHINES_DIR}Soraluce\graphics\Soraluce_FLP8000_cinematica
+DATA|Soraluce_FLP8000_limitada|Soraluce_FLP_8000|Soraluce_FLP_8000|Soraluce_FLP_8000|TNC|${NX_CLIENTE_CAM_LIBRARY_INSTALLED_MACHINES_DIR}Soraluce\Soraluce.dat|1.000000|${NX_CLIENTE_CAM_LIBRARY_INSTALLED_MACHINES_DIR}Soraluce\graphics\Soraluce_FLP8000_cinematica_limitada
+DATA|Soraluce_TR25|Soraluce_TR25|Soraluce_TR25|Soraluce_TR25|TNC|${NX_CLIENTE_CAM_LIBRARY_INSTALLED_MACHINES_DIR}Soraluce_TR25\Soraluce_TR25.dat|1.000000|${NX_CLIENTE_CAM_LIBRARY_INSTALLED_MACHINES_DIR}Soraluce_TR25\graphics\Soraluce_TR25_cinematica

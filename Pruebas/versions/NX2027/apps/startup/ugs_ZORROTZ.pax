@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Palette xmlns="http://www.ugsolutions.com/Schemas/2001/UGPalettes" schemaVersion="1.0">
+
+    <Presentation name="Manufacturing Templates" bitmap="sheet_and_block.bmp" FileNewTab="MAQUINAS_ZORROTZ" application="All" UsesMasterModel="Yes"/>
+
+    <PaletteEntry id="CONFIGURACION1">
+        <References/>
+        <Presentation name="CONFIGURACION1" description="Soraluce_FLP8000 - Mordaza 60-150S izda + Imanes drch">
+            <PreviewImage type="UGPart" location="${NX_CLIENTE_CAM_TEMPLATE_PART_METRIC_DIR}CONFIGURACION1.jpg"/>
+        </Presentation>
+        <ObjectData class="CamTemplate">
+            <Filename>${NX_CLIENTE_CAM_TEMPLATE_PART_METRIC_DIR}CONFIGURACION1.prt</Filename>  
+			<Configuration>${UGII_CAM_CONFIG_DIR}cam_general.dat</Configuration>
+            <LibraryClassPath>GENERAL</LibraryClassPath>
+            <Units>Metric</Units>
+            <UsesMasterModel>Yes</UsesMasterModel>
+        </ObjectData>
+    </PaletteEntry>
+	
+	    <PaletteEntry id="CONFIGURACION2">
+        <References/>
+        <Presentation name="CONFIGURACION2" description="Soraluce_FLP8000 todo mordazas">
+            <PreviewImage type="UGPart" location="${NX_CLIENTE_CAM_TEMPLATE_PART_METRIC_DIR}CONFIGURACION2.jpg"/>
+        </Presentation>
+        <ObjectData class="CamTemplate">
+            <Filename>${NX_CLIENTE_CAM_TEMPLATE_PART_METRIC_DIR}CONFIGURACION2.prt</Filename>  
+			<Configuration>${UGII_CAM_CONFIG_DIR}cam_general.dat</Configuration>
+            <LibraryClassPath>GENERAL</LibraryClassPath>
+            <Units>Metric</Units>
+            <UsesMasterModel>Yes</UsesMasterModel>
+        </ObjectData>
+    </PaletteEntry>
+	
+	
+ </Palette>
+ 

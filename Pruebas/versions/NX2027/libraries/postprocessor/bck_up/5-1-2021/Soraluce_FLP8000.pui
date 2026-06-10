@@ -1,0 +1,2279 @@
+## POSTBUILDER_VERSION=2011.0.2.1
+##############################################################################
+#                                                                            #
+#  This file is used by Post Builder to edit the parameters associated       #
+#  with a specific post processor.                                           #
+#                                                                            #
+#                                                                            #
+#  <WARNING> The contents of this file should not be modified!               #
+#                                                                            #
+##############################################################################
+#  Created by bugalde @ Tuesday, January 05 2021, 13:30:54 +0100
+#  with Post Builder version 12.0.2.
+#============================================================================#
+
+
+## POST EVENT HANDLER START
+def_file  Soraluce_FLP8000.def
+tcl_file  Soraluce_FLP8000.tcl
+## POST EVENT HANDLER END
+
+
+## POST INFORMATION START
+#  DESCRIPTION START
+This is a 5-Axis Milling Machine With
+ Dual Rotary Heads.
+#  DESCRIPTION END
+#  CONTROLLER START
+User (A:/Clientes/Gia/postprocessor/Zayer_XiosG_TNC640.pui)
+#  CONTROLLER END
+#  CONTROLLER TYPE START
+Heidenhain_conversational_advanced
+#  CONTROLLER TYPE END
+#  MACHINE AXIS START
+3 4T 4H 5HH 5TT 5HT
+#  MACHINE AXIS END
+#  HISTORY START
+Created with NX/Post Builder Version 10.0.3.0 on martes, 12 de septiembre de 2017 16:21:44 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 12 de septiembre de 2017 17:03:38 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 9:34:35 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 9:48:38 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 9:51:37 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 9:51:48 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 9:52:52 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 9:54:52 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 9:56:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 12:26:44 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 12:27:23 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 14:10:25 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 15:19:46 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 15:23:50 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 15:29:55 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 15:30:31 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 15:30:47 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 15:30:59 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 16:07:26 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 16:18:11 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 16:20:40 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 16:56:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 13 de septiembre de 2017 17:15:07 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 14 de septiembre de 2017 17:41:36 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 9:03:12 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 9:12:50 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 9:18:21 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 9:24:45 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 9:27:13 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 9:32:36 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 9:57:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 10:15:08 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 10:16:37 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 10:49:12 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 10:56:05 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 11:01:21 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 11:17:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 11:25:48 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 11:26:06 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 11:38:48 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 11:39:18 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 11:42:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 11:56:51 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 12:00:46 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 12:00:54 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 12:08:07 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 12:09:32 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 12:09:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 12:10:39 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 12:13:14 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 12:13:57 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 12:15:16 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 12:33:21 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 12:34:17 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:09:13 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:09:34 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:10:28 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:11:07 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:11:24 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:11:52 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:13:19 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:13:39 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:15:20 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:15:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:18:56 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:19:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:19:52 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:30:01 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:46:44 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:57:24 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 13:59:40 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 14:00:14 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 14:25:19 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de septiembre de 2017 14:25:51 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 9:28:06 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 9:28:34 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 9:33:20 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 10:59:43 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:03:14 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:04:54 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:09:43 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:10:10 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:10:49 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:19:36 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:21:33 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:40:30 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:40:56 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:44:06 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:45:14 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:45:35 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:45:54 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 11:47:31 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 15:28:14 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 15:28:41 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 18 de septiembre de 2017 15:49:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 25 de septiembre de 2017 17:39:12 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 25 de septiembre de 2017 17:52:15 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 25 de septiembre de 2017 17:52:54 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 25 de septiembre de 2017 18:20:32 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 8:41:31 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 8:44:34 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 8:48:22 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 8:49:45 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 8:53:51 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 8:54:18 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 8:56:28 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 8:59:01 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 8:59:57 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:08:58 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:16:30 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:25:52 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:30:27 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:38:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:39:16 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:41:37 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:44:40 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:45:58 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:47:38 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:48:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:51:15 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:51:48 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:53:08 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:54:03 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 9:54:46 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 10:03:23 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 12:39:58 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 12:42:03 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 12:43:52 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:06:40 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:07:36 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:07:58 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:10:00 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:11:58 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:13:26 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:18:28 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:19:00 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:30:34 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:31:48 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:38:22 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:39:23 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:49:55 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:52:13 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:53:08 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:53:41 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:54:30 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:57:10 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 13:57:56 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 14:01:47 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 14:12:33 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 14:13:00 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 14:13:31 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 14:14:13 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 14:14:55 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 14:15:49 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 14:16:03 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 14:16:12 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 14:16:26 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:16:59 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:20:22 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:33:20 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:34:23 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:34:33 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:35:04 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:38:14 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:40:05 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:42:09 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:44:02 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:44:32 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:45:09 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:45:31 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:46:23 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:46:43 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:51:27 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:52:43 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:53:21 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:54:06 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:55:50 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:58:08 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 15:58:16 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 16:07:59 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 16:36:24 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 26 de septiembre de 2017 16:36:45 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 27 de septiembre de 2017 10:11:27 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 27 de septiembre de 2017 10:41:38 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 27 de septiembre de 2017 10:47:12 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 27 de septiembre de 2017 10:47:48 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 27 de septiembre de 2017 10:49:09 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 27 de septiembre de 2017 10:49:35 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 27 de septiembre de 2017 10:49:51 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 27 de septiembre de 2017 10:50:29 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 27 de septiembre de 2017 10:52:19 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 27 de septiembre de 2017 10:52:34 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 27 de septiembre de 2017 11:00:45 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 27 de septiembre de 2017 11:02:52 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 27 de septiembre de 2017 11:05:27 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 29 de septiembre de 2017 12:52:46 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 29 de septiembre de 2017 13:15:22 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 29 de septiembre de 2017 13:15:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 29 de septiembre de 2017 13:16:40 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 29 de septiembre de 2017 13:18:33 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 29 de septiembre de 2017 13:19:10 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 29 de septiembre de 2017 13:19:18 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 29 de septiembre de 2017 13:22:49 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 29 de septiembre de 2017 13:31:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 29 de septiembre de 2017 13:40:48 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 29 de septiembre de 2017 13:44:36 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 29 de septiembre de 2017 13:49:56 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 02 de octubre de 2017 15:25:26 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 02 de octubre de 2017 15:25:34 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 03 de octubre de 2017 16:13:40 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 03 de octubre de 2017 17:00:06 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:17:40 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:19:24 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:20:02 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:23:11 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:24:38 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:26:12 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:39:51 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:40:11 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:42:05 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:42:36 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:44:27 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:44:46 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:46:37 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:47:01 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:47:33 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:48:24 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:50:10 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 8:59:50 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 9:02:57 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 9:04:10 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 9:08:58 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 9:09:12 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 9:09:32 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 9:10:05 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 9:10:12 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 9:36:51 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 9:42:23 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 9:42:50 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 9:44:55 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 9:45:14 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 10:34:03 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 10:40:20 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 11:04:38 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 11:26:04 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 12:22:34 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 13:49:07 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 13:49:52 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 14:04:13 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 14:06:53 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 14:09:25 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 15:35:32 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 15:38:01 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 15:42:47 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 16:02:27 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 16:04:11 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 16:05:05 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 16:05:43 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 16:28:16 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 16:35:13 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 16:36:16 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 16:40:05 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 16:40:25 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 04 de octubre de 2017 16:43:56 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 8:59:43 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 9:02:06 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 9:03:23 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 9:18:16 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 9:20:50 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 9:23:12 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 9:26:28 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 9:29:11 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 9:29:30 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 9:58:08 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 9:59:04 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 11:12:31 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 11:18:38 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 11:32:40 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 11:48:45 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 12:33:09 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 12:33:34 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 12:35:29 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 12:37:23 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 12:38:04 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 12:38:40 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 13:27:08 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 13:31:29 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 13:31:56 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 13:32:34 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 13:32:53 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 13:33:23 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 13:33:59 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 14:07:22 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 14:10:30 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 14:11:23 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 14:12:14 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 14:12:51 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 14:15:24 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:22:26 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:24:01 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:27:01 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:27:23 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:35:20 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:42:33 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:44:45 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:45:07 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:46:43 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:47:47 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:49:37 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:50:10 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:53:24 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:54:05 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:55:07 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:56:43 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:56:52 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:57:29 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 15:58:28 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 16:08:28 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 16:09:57 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 16:13:05 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 16:16:31 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 16:27:03 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 16:30:17 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 16:35:20 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 17:54:29 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 17:54:59 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 17:55:47 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 17:56:20 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 17:56:50 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 18:05:19 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 18:06:38 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 18:10:28 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 05 de octubre de 2017 18:14:45 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 06 de octubre de 2017 8:55:16 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 06 de octubre de 2017 9:07:33 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 06 de octubre de 2017 9:17:02 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 06 de octubre de 2017 9:19:08 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 06 de octubre de 2017 9:20:05 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 06 de octubre de 2017 9:23:26 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 06 de octubre de 2017 9:24:31 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 06 de octubre de 2017 9:36:35 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 06 de octubre de 2017 9:37:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 20 de octubre de 2017 13:25:15 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 20 de octubre de 2017 13:25:49 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 20 de octubre de 2017 13:28:59 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 20 de octubre de 2017 13:35:39 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 20 de octubre de 2017 13:49:19 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 20 de octubre de 2017 13:56:06 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 20 de octubre de 2017 14:00:02 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 20 de octubre de 2017 14:00:15 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 20 de octubre de 2017 14:03:16 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 20 de octubre de 2017 14:06:27 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 11:08:49 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 11:09:51 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 11:10:34 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 11:10:56 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 11:27:25 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:01:34 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:02:20 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:02:58 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:05:56 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:08:23 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:10:51 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:11:20 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:12:38 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:32:20 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:35:10 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:54:35 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:55:28 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:55:59 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 12:56:28 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 13:08:35 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 13:11:10 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 13:17:56 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 24 de octubre de 2017 13:27:33 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 9:00:27 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 9:35:19 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 9:36:40 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 10:01:24 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 10:02:03 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 10:03:12 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 10:39:09 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 14:15:43 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 14:21:42 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 14:25:20 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 14:27:02 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 14:28:46 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 14:29:08 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 14:29:30 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 14:44:54 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 14:45:24 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 27 de octubre de 2017 14:45:51 Hora de verano romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 30 de octubre de 2017 13:33:18 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 30 de octubre de 2017 13:34:32 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 30 de octubre de 2017 13:42:07 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 30 de octubre de 2017 13:42:15 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 10:50:02 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 10:50:34 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 10:51:12 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 10:52:20 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 10:52:54 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 10:55:16 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 10:55:22 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 10:56:21 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 11:10:48 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 11:12:21 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 11:17:32 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 11:17:53 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 11:19:11 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 11:20:23 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 11:24:53 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 11:25:19 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 11:39:19 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 11:40:35 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 11:43:03 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 06 de noviembre de 2017 11:45:16 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 12:00:04 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 12:47:24 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 12:49:42 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 13:10:03 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 13:42:07 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 13:44:30 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 15:35:46 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 15:36:39 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 15:36:52 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 15:41:02 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 16:22:14 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 16:35:51 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 16:39:28 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 16:57:40 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 16:58:28 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 17:03:53 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 17:05:04 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 17:25:02 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 13 de noviembre de 2017 17:38:28 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 22 de noviembre de 2017 16:08:57 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 22 de noviembre de 2017 16:13:05 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 22 de noviembre de 2017 16:14:07 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 22 de noviembre de 2017 16:19:23 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 22 de noviembre de 2017 16:31:43 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 22 de noviembre de 2017 16:31:57 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 22 de noviembre de 2017 16:32:38 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 23 de noviembre de 2017 9:04:36 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 23 de noviembre de 2017 9:06:22 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 23 de noviembre de 2017 9:07:18 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 23 de noviembre de 2017 9:08:40 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 30 de noviembre de 2017 11:56:37 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 30 de noviembre de 2017 12:04:36 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 30 de noviembre de 2017 12:06:18 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 30 de noviembre de 2017 12:07:19 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 30 de noviembre de 2017 12:08:56 Hora estándar romance by gutierrez_ivan.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 07 de marzo de 2018 13:36:07 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 07 de marzo de 2018 17:10:05 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 07 de marzo de 2018 17:10:40 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 07 de marzo de 2018 17:14:01 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 07 de marzo de 2018 17:24:30 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 07 de marzo de 2018 17:27:18 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 07 de marzo de 2018 17:28:33 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 07 de marzo de 2018 18:06:13 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 07 de marzo de 2018 18:07:03 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 07 de marzo de 2018 18:09:19 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 07 de marzo de 2018 18:30:49 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 12 de marzo de 2018 11:27:08 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 12 de marzo de 2018 11:30:50 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 12 de marzo de 2018 11:36:04 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 12 de marzo de 2018 11:50:38 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 12 de marzo de 2018 11:51:14 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 12 de marzo de 2018 11:51:57 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 12 de marzo de 2018 11:58:26 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 12 de marzo de 2018 12:00:16 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 12 de marzo de 2018 12:10:03 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 12 de marzo de 2018 12:10:54 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 12 de marzo de 2018 12:35:17 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 12 de marzo de 2018 12:36:14 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 26 de marzo de 2018 12:15:10 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 26 de marzo de 2018 12:21:48 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 26 de marzo de 2018 12:22:41 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 26 de marzo de 2018 12:22:44 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 15:55:45 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 15:58:16 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:07:48 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:08:42 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:10:09 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:25:02 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:25:56 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:31:01 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:37:54 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:39:18 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:39:36 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:41:52 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:52:20 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:52:59 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:55:09 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 16:56:17 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 17:04:35 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 17:05:12 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 17:06:57 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 17:11:02 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 17:11:48 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 17:30:16 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 17:32:23 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 17:33:07 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 17:37:55 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 17:38:35 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 17:39:35 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 24 de mayo de 2018 17:43:01 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on sábado, 02 de junio de 2018 11:37:23 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on sábado, 02 de junio de 2018 11:37:41 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on sábado, 02 de junio de 2018 11:37:58 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on sábado, 02 de junio de 2018 11:39:13 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on sábado, 02 de junio de 2018 11:39:34 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on sábado, 02 de junio de 2018 11:51:03 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on sábado, 02 de junio de 2018 11:51:42 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on sábado, 02 de junio de 2018 12:58:19 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on sábado, 02 de junio de 2018 13:03:43 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on sábado, 02 de junio de 2018 13:04:18 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on sábado, 02 de junio de 2018 13:07:33 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 06 de junio de 2018 14:31:34 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de junio de 2018 13:41:27 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 15 de junio de 2018 13:43:07 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 25 de octubre de 2018 13:08:01 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 25 de octubre de 2018 13:31:59 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 25 de octubre de 2018 13:40:34 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 25 de octubre de 2018 13:41:08 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 25 de octubre de 2018 13:43:17 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 25 de octubre de 2018 13:43:29 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 25 de octubre de 2018 13:55:03 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 25 de octubre de 2018 13:55:17 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 25 de octubre de 2018 13:55:29 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 25 de octubre de 2018 14:00:21 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on jueves, 25 de octubre de 2018 14:00:31 Hora de verano romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 17 de diciembre de 2018 15:31:03 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on lunes, 17 de diciembre de 2018 15:33:02 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 11 de enero de 2019 13:22:50 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on viernes, 11 de enero de 2019 13:25:33 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 15 de enero de 2019 17:12:14 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 15 de enero de 2019 17:14:20 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 15 de enero de 2019 17:15:03 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on martes, 15 de enero de 2019 17:21:59 Hora estándar romance by igutierrez.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 11 de marzo de 2020 16:20:03 Hora estándar romance by bugalde.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 11 de marzo de 2020 16:21:38 Hora estándar romance by bugalde.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 11 de marzo de 2020 16:23:37 Hora estándar romance by bugalde.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 11 de marzo de 2020 16:24:08 Hora estándar romance by bugalde.
+Saved with NX/Post Builder Version 10.0.3.0 on miércoles, 11 de marzo de 2020 18:16:01 Hora estándar romance by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 09:38:01 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 09:38:05 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 09:38:59 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 09:39:42 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 10:14:48 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 10:18:54 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 10:19:40 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 10:27:09 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 10:29:47 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 10:55:24 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 10:56:18 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 10:56:35 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 11:09:18 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 11:19:44 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 11:20:37 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 11:26:22 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 11:27:50 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 11:29:17 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 16:25:03 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Thursday, March 12 2020, 17:14:42 +0100 by bugalde.
+Saved Soraluce_FP10000 with NX/Post Builder Version 12.0.2.1 on Friday, March 13 2020, 11:00:28 +0100 by bugalde.
+Created Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, March 25 2020, 11:41:33 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, March 25 2020, 11:41:38 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Sunday, April 05 2020, 23:18:56 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Sunday, April 05 2020, 23:19:49 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Sunday, April 05 2020, 23:20:09 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Sunday, April 05 2020, 23:49:49 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, April 06 2020, 00:10:40 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, April 06 2020, 00:20:01 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, April 06 2020, 00:21:38 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, April 06 2020, 00:31:50 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, April 06 2020, 00:33:35 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, April 06 2020, 00:34:37 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, April 06 2020, 00:36:17 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, May 25 2020, 09:57:30 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, May 25 2020, 23:45:38 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 15:33:02 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 15:34:23 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 15:35:55 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 15:36:47 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 15:37:37 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 15:38:19 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 15:39:18 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 15:39:52 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 15:53:16 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 15:55:57 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 15:57:07 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 15:58:09 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 15:59:30 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 16:10:02 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 16:16:43 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, May 27 2020, 16:47:36 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, May 28 2020, 09:20:37 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, May 28 2020, 09:22:02 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, May 28 2020, 18:01:03 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, May 28 2020, 18:02:06 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, May 28 2020, 18:03:11 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, May 28 2020, 18:04:11 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 08:25:54 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 08:34:16 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 08:36:53 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 08:37:47 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 08:39:59 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 08:42:48 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 08:53:20 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 08:54:08 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 08:55:43 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 08:58:57 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 08:59:16 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 09:14:22 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 09:16:38 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 09:17:10 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 09:30:26 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 09:34:04 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, May 29 2020, 09:35:43 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, July 09 2020, 16:44:29 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, July 09 2020, 16:55:03 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, July 09 2020, 17:01:05 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, July 09 2020, 17:06:26 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, July 09 2020, 17:09:14 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, July 09 2020, 17:10:59 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, July 09 2020, 17:14:14 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, July 09 2020, 17:18:09 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, July 10 2020, 09:31:45 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, July 10 2020, 09:40:09 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, July 10 2020, 11:47:02 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, July 10 2020, 12:45:43 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, July 10 2020, 13:00:46 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, July 10 2020, 13:11:06 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, July 10 2020, 13:11:37 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, July 10 2020, 13:30:20 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, July 10 2020, 13:32:16 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, July 10 2020, 13:34:23 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, July 10 2020, 13:37:41 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, July 30 2020, 14:28:55 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, July 30 2020, 14:30:54 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, July 30 2020, 14:31:00 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, July 30 2020, 15:03:59 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 08:51:20 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 08:52:58 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 08:54:12 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 08:55:16 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 08:56:30 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 09:01:30 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 09:02:18 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 09:05:50 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 09:12:04 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 09:12:34 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 09:13:42 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 09:14:53 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 09:30:32 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, August 25 2020, 09:32:28 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, September 28 2020, 13:37:29 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, September 30 2020, 17:16:02 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, September 30 2020, 17:16:50 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, September 30 2020, 17:24:45 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, September 30 2020, 17:31:34 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, September 30 2020, 17:33:42 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, September 30 2020, 17:39:34 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Wednesday, September 30 2020, 17:40:42 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, October 01 2020, 11:20:07 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, October 01 2020, 11:22:01 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, October 01 2020, 11:24:49 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, October 01 2020, 11:31:44 +0200 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, October 27 2020, 12:03:06 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, October 27 2020, 12:12:20 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 09:34:24 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 09:36:11 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 11:47:36 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 11:48:09 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 11:48:57 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 11:51:01 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 11:53:04 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 12:02:15 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 12:03:44 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 12:05:05 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 12:05:56 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 12:17:15 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 12:17:42 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 12:18:32 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 12:45:17 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 12:47:25 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 12:50:21 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 12:50:40 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 12:57:36 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 13:01:17 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 13:23:58 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 13:24:14 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 13:25:58 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 15:28:54 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 16:40:42 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 17:12:20 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 17:14:37 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 17:16:04 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 17:17:22 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 17:18:04 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 17:20:36 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 17:57:58 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 18:04:41 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 18:05:50 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, November 02 2020, 18:18:00 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, December 10 2020, 13:21:58 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, December 10 2020, 13:23:41 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, December 10 2020, 13:31:18 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, December 10 2020, 13:32:38 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, December 10 2020, 13:38:42 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, December 10 2020, 13:41:54 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, December 10 2020, 13:49:49 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, December 10 2020, 13:50:00 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Thursday, December 10 2020, 13:50:50 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, December 11 2020, 12:07:19 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, December 11 2020, 12:07:30 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Friday, December 11 2020, 12:13:24 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Monday, January 04 2021, 17:25:45 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, January 05 2021, 12:42:21 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, January 05 2021, 12:46:42 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, January 05 2021, 12:48:33 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, January 05 2021, 12:55:01 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, January 05 2021, 13:20:09 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, January 05 2021, 13:20:50 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, January 05 2021, 13:29:51 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, January 05 2021, 13:30:34 +0100 by bugalde.
+Saved Soraluce_FLP8000 with NX/Post Builder Version 12.0.2.1 on Tuesday, January 05 2021, 13:30:54 +0100 by bugalde.
+#  HISTORY END
+## POST INFORMATION END
+
+
+## LISTING FILE START
+Listfileflag_warn              OFF
+Listfileflag                   OFF
+Listfileflag_alt_unit_post_name Soraluce_FLP8000__IN.pui
+Listfileflag_group             OFF
+Listfileflag_verbose           OFF
+Listfileflag_tool              0
+Listfileflag_oper              0
+Listfileflag_lpt_ext           lpt
+Listfileflag_ncfile_ext        h
+Listfileflag_usertcl_name      Soraluce_FP10000_user.tcl
+Listfileflag_review            OFF
+Listfileflag_start_path        0
+Listfileflag_warn_opt          FILE
+Listfileflag_head              OFF
+Listfileflag_use_default_unit_fragment 1
+Listfileflag_end_path          0
+Listfilelines                  40
+Listfileflag_oper_time         0
+Listfileflag_tool_chng         0
+Listfilecolumn                 30
+Listfileflag_usertcl_check     OFF
+Listfileflag_setup_time        0
+Listfilename                   listfile.lpt
+## LISTING FILE END
+
+## KINEMATIC VARIABLES START
+"$mom_kin_4th_axis_ang_offset"            "0.0"
+"$mom_kin_4th_axis_center_offset(0)"      "0.0"
+"$mom_kin_4th_axis_center_offset(1)"      "0.0"
+"$mom_kin_4th_axis_center_offset(2)"      "0.0"
+"$mom_kin_4th_axis_direction"             "MAGNITUDE_DETERMINES_DIRECTION"
+"$mom_kin_4th_axis_incr_switch"           "OFF"
+"$mom_kin_4th_axis_leader"                "B"
+"$mom_kin_4th_axis_limit_action"          "Warning"
+"$mom_kin_4th_axis_max_limit"             "180"
+"$mom_kin_4th_axis_min_incr"              "1"
+"$mom_kin_4th_axis_min_limit"             "0"
+"$mom_kin_4th_axis_plane"                 "ZX"
+"$mom_kin_4th_axis_point(0)"              "0.0"
+"$mom_kin_4th_axis_point(1)"              "0.0"
+"$mom_kin_4th_axis_point(2)"              "0.0"
+"$mom_kin_4th_axis_rotation"              "standard"
+"$mom_kin_4th_axis_type"                  "Head"
+"$mom_kin_4th_axis_vector(0)"             "0"
+"$mom_kin_4th_axis_vector(1)"             "1"
+"$mom_kin_4th_axis_vector(2)"             "0"
+"$mom_kin_4th_axis_zero"                  "0.0"
+"$mom_kin_5th_axis_ang_offset"            "0.0"
+"$mom_kin_5th_axis_center_offset(0)"      "0.0"
+"$mom_kin_5th_axis_center_offset(1)"      "0.0"
+"$mom_kin_5th_axis_center_offset(2)"      "0.0"
+"$mom_kin_5th_axis_direction"             "MAGNITUDE_DETERMINES_DIRECTION"
+"$mom_kin_5th_axis_incr_switch"           "OFF"
+"$mom_kin_5th_axis_leader"                "A"
+"$mom_kin_5th_axis_limit_action"          "Warning"
+"$mom_kin_5th_axis_max_limit"             "45"
+"$mom_kin_5th_axis_min_incr"              "1"
+"$mom_kin_5th_axis_min_limit"             "-225"
+"$mom_kin_5th_axis_plane"                 "YZ"
+"$mom_kin_5th_axis_point(0)"              "0.0"
+"$mom_kin_5th_axis_point(1)"              "0.0"
+"$mom_kin_5th_axis_point(2)"              "0.0"
+"$mom_kin_5th_axis_rotation"              "standard"
+"$mom_kin_5th_axis_type"                  "Head"
+"$mom_kin_5th_axis_vector(0)"             "1"
+"$mom_kin_5th_axis_vector(1)"             "0"
+"$mom_kin_5th_axis_vector(2)"             "0"
+"$mom_kin_5th_axis_zero"                  "0.0"
+"$mom_kin_arc_output_mode"                "FULL_CIRCLE"
+"$mom_kin_arc_valid_plane"                "XY"
+"$mom_kin_clamp_time"                     "2.0"
+"$mom_kin_cycle_plane_change_per_axis"    "1"
+"$mom_kin_cycle_plane_change_to_lower"    "1"
+"$mom_kin_flush_time"                     "2.0"
+"$mom_kin_linearization_flag"             "1"
+"$mom_kin_linearization_tol"              "0.01"
+"$mom_kin_machine_resolution"             "0.001"
+"$mom_kin_machine_type"                   "5_axis_dual_head"
+"$mom_kin_machine_zero_offset(0)"         "0.0"
+"$mom_kin_machine_zero_offset(1)"         "0.0"
+"$mom_kin_machine_zero_offset(2)"         "0.0"
+"$mom_kin_max_arc_radius"                 "99999.999"
+"$mom_kin_max_dpm"                        "10"
+"$mom_kin_max_fpm"                        "15000"
+"$mom_kin_max_fpr"                        "1000"
+"$mom_kin_max_frn"                        "1000"
+"$mom_kin_min_arc_length"                 "0.20"
+"$mom_kin_min_arc_radius"                 "0.001"
+"$mom_kin_min_dpm"                        "0.0"
+"$mom_kin_min_fpm"                        "0.1"
+"$mom_kin_min_fpr"                        "0.1"
+"$mom_kin_min_frn"                        "0.01"
+"$mom_kin_output_unit"                    "MM"
+"$mom_kin_pivot_gauge_offset"             "0.0"
+"$mom_kin_pivot_guage_offset"             ""
+"$mom_kin_post_data_unit"                 "MM"
+"$mom_kin_rapid_feed_rate"                "10000"
+"$mom_kin_retract_distance"               "500"
+"$mom_kin_rotary_axis_method"             "PREVIOUS"
+"$mom_kin_spindle_axis(0)"                "0.0"
+"$mom_kin_spindle_axis(1)"                "0.0"
+"$mom_kin_spindle_axis(2)"                "1.0"
+"$mom_kin_tool_change_time"               "10.0"
+"$mom_kin_x_axis_limit"                   "10000"
+"$mom_kin_y_axis_limit"                   "1500"
+"$mom_kin_z_axis_limit"                   "3200"
+## KINEMATIC VARIABLES END
+
+## GCODES START
+"$mom_sys_rapid_code"                     "$gPB(g_code,rapid,name)"
+"$mom_sys_linear_code"                    "$gPB(g_code,linear,name)"
+"$mom_sys_circle_code(CLW)"               "$gPB(g_code,circular_clw,name)"
+"$mom_sys_circle_code(CCLW)"              "$gPB(g_code,circular_cclw,name)"
+"$mom_sys_delay_code(SECONDS)"            "$gPB(g_code,delay_sec,name)"
+"$mom_sys_delay_code(REVOLUTIONS)"        "$gPB(g_code,delay_rev,name)"
+"$mom_sys_cutcom_plane_code(XY)"          "$gPB(g_code,pln_xy,name)"
+"$mom_sys_cutcom_plane_code(ZX)"          "$gPB(g_code,pln_zx,name)"
+"$mom_sys_cutcom_plane_code(YZ)"          "$gPB(g_code,pln_yz,name)"
+"$mom_sys_cutcom_code(OFF)"               "$gPB(g_code,cutcom_off,name)"
+"$mom_sys_cutcom_code(LEFT)"              "$gPB(g_code,cutcom_left,name)"
+"$mom_sys_cutcom_code(RIGHT)"             "$gPB(g_code,cutcom_right,name)"
+"$mom_sys_adjust_code"                    "$gPB(g_code,length_plus,name)"
+"$mom_sys_adjust_code_minus"              "$gPB(g_code,length_minus,name)"
+"$mom_sys_adjust_cancel_code"             "$gPB(g_code,length_off,name)"
+"$mom_sys_unit_code(IN)"                  "$gPB(g_code,inch,name)"
+"$mom_sys_unit_code(MM)"                  "$gPB(g_code,metric,name)"
+"$mom_sys_output_code(ABSOLUTE)"          "$gPB(g_code,abs,name)"
+"$mom_sys_output_code(INCREMENTAL)"       "$gPB(g_code,inc,name)"
+"$mom_sys_cycle_ret_code(AUTO)"           "$gPB(g_code,cycle_retract_auto,name)"
+"$mom_sys_cycle_ret_code(MANUAL)"         "$gPB(g_code,cycle_retract_manual,name)"
+"$mom_sys_reset_code"                     "$gPB(g_code,reset,name)"
+"$mom_sys_feed_rate_mode_code(IPM)"       "$gPB(g_code,feedmode_in,pm)"
+"$mom_sys_feed_rate_mode_code(IPR)"       "$gPB(g_code,feedmode_in,pr)"
+"$mom_sys_feed_rate_mode_code(FRN)"       "$gPB(g_code,fr_frn,name)"
+"$mom_sys_spindle_mode_code(SFM)"         "$gPB(g_code,spindle_css,name)"
+"$mom_sys_spindle_mode_code(RPM)"         "$gPB(g_code,spindle_rpm,name)"
+"$mom_sys_return_code"                    "$gPB(g_code,ret_home,name)"
+"$mom_sys_feed_rate_mode_code(MMPM)"      "$gPB(g_code,feedmode_mm,pm)"
+"$mom_sys_feed_rate_mode_code(MMPR)"      "$gPB(g_code,feedmode_mm,pr)"
+## GCODES END
+
+## MCODES START
+"$mom_sys_program_stop_code"              "$gPB(m_code,stop_manual_tc,name)"
+"$mom_sys_optional_stop_code"             "$gPB(m_code,opt_stop,name)"
+"$mom_sys_end_of_program_code"            "$gPB(m_code,prog_end,name)"
+"$mom_sys_spindle_direction_code(CLW)"    "$gPB(m_code,spindle_clw,name)"
+"$mom_sys_spindle_direction_code(CCLW)"   "$gPB(m_code,spindle_cclw,name)"
+"$mom_sys_spindle_direction_code(OFF)"    "$gPB(m_code,spindle_off,name)"
+"$mom_sys_tool_change_code"               "$gPB(m_code,tc_retract,name)"
+"$mom_sys_coolant_code(ON)"               "$gPB(m_code,coolant_on,name)"
+"$mom_sys_coolant_code(FLOOD)"            "$gPB(m_code,coolant_fld,name)"
+"$mom_sys_coolant_code(MIST)"             "$gPB(m_code,coolant_mist,name)"
+"$mom_sys_coolant_code(THRU)"             "$gPB(m_code,coolant_thru,name)"
+"$mom_sys_coolant_code(TAP)"              "$gPB(m_code,coolant_tap,name)"
+"$mom_sys_coolant_code(OFF)"              "$gPB(m_code,coolant_off,name)"
+"$mom_sys_rewind_code"                    "$gPB(m_code,rewind,name)"
+## MCODES END
+
+## MASTER SEQUENCE START
+I                 "$mom_sys_blank_code"  0  "X Axis Position of the Circle Center"  0
+G_plane           "$mom_sys_cutcom_plane_code($mom_cutcom_plane)"  0  "Plane G-Code"  0
+G_adjust          "$mom_sys_adjust_code"  0  "Tool Length Adjust G-Code"  0
+G_feed            "$mom_sys_feed_rate_mode_code($feed_mode)"  0  "Feedrate Mode G-Code"  0
+G_spin            "$mom_sys_spindle_mode_code($mom_spindle_status)"  0  "Spindle Output Mode G-Code"  0
+G_return          "$mom_sys_cycle_ret_code(MANUAL)"  0  "Return Plane for Canned Cycles"  0
+G_motion          "$mom_sys_linear_code"  0  "Motion G-Code"  0
+LN                "$mom_usd_add_var"  0  "New Address"  1
+G_mode            "$mom_sys_output_code($mom_output_mode)"  0  "Positioning Mode G-code"  0
+G                 "$mom_sys_blank_code"  0  "Other G-Codes"  0
+helix_angle       "$mom_usd_add_var"  0  "New Address"  1
+helix_height      "$mom_usd_add_var"  0  "New Address"  1
+X                 "$mom_sys_blank_code"  0  "X Axis Position or Canned Cycle X Axis Position"  0
+Y                 "$mom_sys_blank_code"  0  "Y Axis Position or Canned Cycle Y Axis Position"  0
+Z                 "$mom_sys_blank_code"  0  "Z Axis Position or Canned Cycle Z Axis Position"  0
+Z_inicial         "$mom_usd_add_var"  0  "(Z_inicial)"  1
+Z_label           "$mom_usd_add_var"  0  "(Z_label)"  1
+YV                "$mom_usd_add_var"  0  "(YV)"  1
+YV_inicial        "$mom_usd_add_var"  0  "(YV_inicial)"  1
+V                 "$mom_usd_add_var"  0  "(V)"  1
+VY                "$mom_usd_add_var"  0  "(VY)"  1
+fourth_axis       "$mom_sys_blank_code"  0  "4th Axis Position"  0
+fifth_axis        "$mom_sys_blank_code"  0  "5th Axis Position"  0
+J                 "$mom_sys_blank_code"  0  "Y Axis Position of the Circle Center"  0
+K                 "$mom_sys_blank_code"  0  "Z Axis Position of the Circle Center"  0
+circle_direction   "$mom_usd_add_var"  0  "New Address"  1
+R                 "$mom_sys_blank_code"  0  "Rapid Approach Position in a Canned Cycle Block"  0
+M128              "$mom_usd_add_var"  0  "New Address"  1
+NX                "$mom_usd_add_var"  0  "New Address"  1
+NY                "$mom_usd_add_var"  0  "New Address"  1
+NZ                "$mom_usd_add_var"  0  "New Address"  1
+TX                "$mom_usd_add_var"  0  "New Address"  1
+TY                "$mom_usd_add_var"  0  "(TY)"  1
+TZ                "$mom_usd_add_var"  0  "New Address"  1
+G_cutcom          "$mom_sys_cutcom_code(OFF)"  0  "Cutcom G-Code"  0
+cutter_comp       "$mom_usd_add_var"  0  "New Address"  1
+F                 "$mom_sys_blank_code"  0  "Feedrate"  0
+FMAX              "$mom_usd_add_var"  0  "New Address"  1
+T                 "$mom_sys_blank_code"  0  "Tool Select Code"  0
+S                 "$mom_sys_blank_code"  0  "Spindle Speed"  0
+D                 "$mom_sys_blank_code"  0  "Tool Radius Compensation Register"  0
+H                 "$mom_sys_blank_code"  0  "Tool Length Compensation Register"  0
+dwell             "$mom_sys_blank_code"  0  "Programmed Dwell"  0
+cycle_dwell       "$mom_sys_blank_code"  0  "Delay for Canned cycle Dwell"  0
+P_cutcom          "$mom_sys_blank_code"  0  "P-Cutcom"  0
+K_cycle           "$mom_sys_blank_code"  0  "Retract Position in a Canned Cycle Block"  0
+cycle_step1       "$mom_sys_blank_code"  0  "Step Increment Modifier for Deep or Break Chip Cycle"  0
+cycle_step        "$mom_sys_blank_code"  0  "Step Increment for Deep or Break Chip Cycle"  0
+Q_cutcom          "$mom_sys_blank_code"  0  "Q-Cutcom"  0
+E                 "$mom_sys_blank_code"  0  "Thread Increment for Threads"  0
+M_spindle         "$mom_sys_spindle_direction_code($mom_spindle_direction)"  0  "Spindle Direction M-Code"  0
+M_range           "$mom_sys_spindle_range_code($mom_spindle_range)"  0  "Spindle Range M-Code"  0
+coolant_inside    "$mom_usd_add_var"  0  "New Address"  1
+M_coolant         "$mom_sys_coolant_code($mom_coolant_status)"  0  "Coolant M-Code"  0
+M                 "$mom_sys_optional_stop_code"  0  "Other M-Codes"  0
+TL                "$mom_usd_add_var"  0  "New Address"  1
+TR                "$mom_usd_add_var"  0  "(TR)"  1
+SPA               "$mom_usd_add_var"  0  "New Address"  1
+SPB               "$mom_usd_add_var"  0  "New Address"  1
+SPC               "$mom_usd_add_var"  0  "New Address"  1
+tolerance         "$mom_usd_add_var"  0  "New Address"  1
+angle_tolerance   "$mom_usd_add_var"  0  "New Address"  1
+IX                "$mom_usd_add_var"  0  "New Address"  1
+IY                "$mom_usd_add_var"  0  "New Address"  1
+IZ                "$mom_usd_add_var"  0  "New Address"  1
+coolant_air_outside   "$mom_usd_add_var"  0  "New Address"  1
+coolant_air_inside   "$mom_usd_add_var"  0  "New Address"  1
+feed_cut          "$mom_usd_add_var"  0  "New Address"  1
+feed_engage       "$mom_usd_add_var"  0  "(feed_engage)"  1
+feed_retract      "$mom_usd_add_var"  0  "(feed_retract)"  1
+Q203              "$mom_usd_add_var"  0  "New Address"  1
+home_position_x   "$mom_usd_add_var"  0  "(home_position_x)"  1
+home_position_y   "$mom_usd_add_var"  0  "(home_position_y)"  1
+home_position_z   "$mom_usd_add_var"  0  "(home_position_z)"  1
+user_add          "$mom_usd_add_var"  0  "New Address"  1
+SPOS              "$mom_usd_add_var"  0  "New Address"  1
+spindle_orient    "$mom_usd_add_var"  0  "New Address"  1
+N                 ""  0  "Sequence Number"  0
+Text              ""  0  "Text String"  0
+## MASTER SEQUENCE END
+
+## CYCLE EVENT START
+#Cycle Common Block Start
+{Cycle Parameters}
+#Cycle Common Block End
+
+#Cycle Block Share Common Block Start
+{ \
+  {Drill} \
+  {Drill Dwell} \
+  {Drill Deep} \
+  {Drill Break Chip} \
+  {Tap} \
+  {Tap Float} \
+  {Tap Deep} \
+  {Tap Break Chip} \
+  {Bore} \
+  {Bore Drag} \
+  {Bore No Drag} \
+  {Bore Dwell} \
+  {Bore Manual} \
+  {Bore Back} \
+  {Bore Manual Dwell} \
+}
+#Cycle Block Share Common Block End
+## CYCLE EVENT END
+
+## SEQUENCE START
+#Program Start Sequence Start
+{Start of Program}         {PB_CMD_info PB_CMD_variables_iniciales PB_CMD_variables_labels PB_CMD_machine_kinematics PB_CMD_init_helix PB_CMD_customize_output_mode PB_CMD_set_default_dpp_value PB_CMD_fix_RAPID_SET PB_CMD_spindle_orient PB_CMD_nurbs_initialize MOM_set_seq_off begin_program PB_CMD_maquina MOM_set_seq_on PB_CMD_comandos_iniciales PB_CMD_uplevel_ROTARY_AXIS_RETRACT PB_CMD_uplevel_MOM_user PB_CMD_uplevel_MOM_ciclo_32 PB_CMD_uplevel_MOM_Refrigerante_EUSKO PB_CMD_uplevel_MOM_Ciclo_208 PB_CMD_uplevel_MOM_rapid_move PB_CMD_uplevel_MOM_linear_move PB_CMD_uplevel_ciclos PB_CMD_uplevel_creacion_label_acabado PB_CMD_uplevel_creacion_label_fresado PB_CMD_uplevel_MOM_user}  {$gPB(event,start_prog,name)}
+#Program Start Sequence End
+
+#Operation Start Sequence Start
+{Start of Path}            {comment_blk start_of_path comment_blk_2 {CYCL_247 {} 0} PB_CMD_preset}  {$gPB(event,opr_start,start_path,name)}
+{From Move}                {}  {$gPB(event,opr_start,from_move,name)}
+{First Tool}               {}  {$gPB(event,opr_start,fst_tool,name)}
+{Auto Tool Change}         {}  {$gPB(event,opr_start,auto_tc,name)}
+{Manual Tool Change}       {stop}  {$gPB(event,opr_start,manual_tc,name)}
+{Initial Move}             {PB_CMD_info_metodo PB_CMD_info_avances PB_CMD_CYCL_32 PB_CMD_define_feed_variable_value PB_CMD_info_hta PB_CMD_set_flag_mov_ini PB_CMD_cero_operacion PB_CMD_giro_C PB_CMD_tipo_operacion PB_CMD_CAMBIO_HTA PB_CMD_REFRI PB_CMD_detect_tool_path_type PB_CMD_detect_csys_rotation PB_CMD_detect_local_offset PB_CMD_define_fixture_csys PB_CMD_save_RPM PB_CMD_parametros_plane_spatial PB_CMD_valores_giro_cabezal plane_spatial_select plane_spatial PB_CMD_CYCL_397 PB_CMD_Introducir_comado PB_CMD_init_force_address PB_CMD_salida_label_acabado PB_CMD_salida_label_fresado}  {$gPB(event,opr_start,init_move,name)}
+{First Move}               {PB_CMD_info_metodo PB_CMD_info_avances PB_CMD_CYCL_32 PB_CMD_define_feed_variable_value PB_CMD_info_hta PB_CMD_set_flag_mov_ini PB_CMD_cero_operacion PB_CMD_giro_C PB_CMD_HTA_CAMB_CAB PB_CMD_salida_lbl100 PB_CMD_REFRI PB_CMD_detect_tool_path_type PB_CMD_detect_csys_rotation PB_CMD_detect_local_offset PB_CMD_define_fixture_csys PB_CMD_save_RPM PB_CMD_tipo_operacion PB_CMD_parametros_plane_spatial PB_CMD_valores_giro_cabezal plane_spatial_select plane_spatial PB_CMD_CYCL_397 PB_CMD_Introducir_comado PB_CMD_init_force_address PB_CMD_salida_label_acabado PB_CMD_salida_label_fresado}  {$gPB(event,opr_start,fst_move,name)}
+{Approach Move}            {}  {$gPB(event,opr_start,appro_move,name)}
+{Engage Move}              {}  {$gPB(event,opr_start,engage_move,name)}
+{First Cut}                {}  {$gPB(event,opr_start,fst_cut,name)}
+{First Linear Move}        {}  {$gPB(event,opr_start,fst_lin_move,name)}
+#Operation Start Sequence End
+
+##Tool Path Start
+#Control Functions Start
+{Tool Change}              {}  {$gPB(event,tool_change,name)} {}
+{Length Compensation}      {tool_length_adjust}  {$gPB(event,length_compn,name)} {length_compensation}
+{Set Modes}                {}  {$gPB(event,set_modes,name)} {set_modes}
+{Spindle RPM}              {PB_CMD_enable_spindle spindle_rpm}  {$gPB(event,spindle_rpm,name)} {spindle}
+{Spindle Off}              {PB_CMD_spindle_off spindle_off}  {$gPB(event,spindle_off,name)} {spindle_off}
+{Coolant On}               {}  {$gPB(event,coolant_on,name)} {coolant}
+{Coolant Off}              {coolant_off}  {$gPB(event,coolant_off,name)} {coolant_off}
+{Inch Metric Mode}         {}  {$gPB(event,inch_metric_mode,name)} {}
+{Feedrates}                {}  {$gPB(event,feedrates,name)} {}
+{Cutcom On}                {}  {$gPB(event,cutcom_on,name)} {cutcom}
+{Cutcom Off}               {}  {$gPB(event,cutcom_off,name)} {}
+{Delay}                    {delay}  {$gPB(event,delay,name)} {dwell}
+{Opstop}                   {opstop}  {$gPB(event,opstop,name)} {opstop}
+{Auxfun}                   {auxfun}  {$gPB(event,auxfun,name)} {auxfun}
+{Prefun}                   {prefun}  {$gPB(event,prefun,name)} {prefun}
+{Load Tool}                {}  {$gPB(event,loadtool,name)} {mill_tool_change}
+{Stop}                     {stop}  {$gPB(event,stop,name)} {stop}
+{Tool Preselect}           {}  {$gPB(event,toolpreselect,name)} {tool_preselect}
+{clamp}                    {PB_CMD_MOM_clamp}  {Clamp} {UDE}
+{datum_output}             {PB_CMD_UDE_datum_setting}  {Datum Output} {UDE}
+{insert}                   {PB_CMD_MOM_insert}  {Insert} {UDE}
+{lock_axis}                {PB_CMD_MOM_lock_axis}  {Lock Axis} {UDE}
+{operator_message}         {PB_CMD_MOM_operator_message}  {Operator Message} {UDE}
+{opskip_off}               {PB_CMD_MOM_opskip_off}  {Optional Skip Off} {UDE}
+{opskip_on}                {PB_CMD_MOM_opskip_on}  {Optional Skip On} {UDE}
+{pprint}                   {PB_CMD_MOM_pprint}  {Pprint} {UDE}
+{rotate}                   {PB_CMD_MOM_rotate}  {Rotate} {UDE}
+{text}                     {PB_CMD_MOM_text}  {User Defined} {UDE}
+#Control Functions End
+
+#Motions Start
+{Linear Move}              {PB_CMD_tipo_avance PB_CMD_suavizado_operacion PB_CMD_gestion_Z_label_fresado PB_CMD_salida_label_fresado linear_move PB_CMD_save_last_z}  {$gPB(event,linear,name)}
+{Circular Move}            {PB_CMD_set_cycle_plane PB_CMD_salida_label_fresado circular_move PB_CMD_suavizado_operacion circular_move_1}  {$gPB(event,circular,name)}
+{Rapid Move}               {PB_CMD_check_plane_change_in_rapid_move rapid_move rapid_move_xy rapid_traverse PB_CMD_save_last_z PB_CMD_restore_work_plane_change PB_CMD_unset_flag_mov_ini}  {$gPB(event,rapid,name)}
+{Helix Move}               {PB_CMD_helix_move helix_move_1 helix_move}  {$gPB(event,helix,name)}
+{NURBS Move}               {PB_CMD_nurbs_move}  {$gPB(event,nurbs,name)}
+#Motions End
+
+#Cycles Start
+{Cycle Parameters}         {PB_CMD_set_cycle_plane PB_CMD_init_cycle {just_mcall_sinumerik {} 0} PB_CMD_config_cycle_start cycle_parameters_1 {CYCL_CALL {} 0}}  {$gPB(event,cycle,com_param,name)}
+{Cycle Off}                {cycle_off_off}  {$gPB(event,cycle,cycle_off,name)}
+{Cycle Plane Change}       {PB_CMD_custom_command_1 PB_CMD_define_work_plane_cycle PB_CMD_cycle_plane_change}  {$gPB(event,cycle,plane_chng,name)}
+{Drill}                    {{CYCL_200 {} 0}}  {$gPB(event,cycle,drill,name)} {CYCLE_EVENT}
+{Drill Dwell}              {{CYCL_200 {} 0}}  {$gPB(event,cycle,drill_dwell,name)}
+{Drill Text}               {}  {$gPB(event,cycle,drill_text,name)} {CYCLE_EVENT}
+{Drill Csink}              {}  {$gPB(event,cycle,drill_csink,name)} {CYCLE_EVENT}
+{Drill Deep}               {{CYCL_200 {} 0}}  {$gPB(event,cycle,drill_deep,name)} {CYCLE_EVENT}
+{Drill Break Chip}         {{CYCL_200 {} 0}}  {$gPB(event,cycle,drill_brk_chip,name)} {CYCLE_EVENT}
+{Tap}                      {{CYCL_207 {} 0}}  {$gPB(event,cycle,tap,name)} {CYCLE_EVENT}
+{Tap Float}                {{CYCL_206 {} 0}}  {$gPB(event,cycle,tap_float,name)} {CYCLE_EVENT}
+{Tap Deep}                 {{CYCL_209 {} 0}}  {$gPB(event,cycle,tap_deep,name)} {CYCLE_EVENT}
+{Tap Break Chip}           {{CYCL_209 {} 0}}  {$gPB(event,cycle,tap_break_chip,name)} {CYCLE_EVENT}
+{Bore}                     {{CYCL_201 {} 0}}  {$gPB(event,cycle,bore,name)} {CYCLE_EVENT}
+{Bore Drag}                {{CYCL_202 {} 0}}  {$gPB(event,cycle,bore_drag,name)} {CYCLE_EVENT}
+{Bore No Drag}             {{CYCL_200 {} 0}}  {$gPB(event,cycle,bore_no_drag,name)} {CYCLE_EVENT}
+{Bore Manual}              {{CYCL_200 {} 0}}  {$gPB(event,cycle,bore_manual,name)} {CYCLE_EVENT}
+{Bore Dwell}               {{CYCL_200 {} 0}}  {$gPB(event,cycle,bore_dwell,name)}
+{Bore Back}                {{CYCL_208 {} 0}}  {$gPB(event,cycle,bore_back,name)} {CYCLE_EVENT}
+{Bore Manual Dwell}        {{CYCL_200 {} 0}}  {$gPB(event,cycle,bore_manual_dwell,name)}
+{Peck Drill}               {}  {$gPB(event,cycle,peck_drill,name)} {CYCLE_EVENT}
+{Break Chip}               {}  {$gPB(event,cycle,break_chip,name)} {CYCLE_EVENT}
+{thread_mill}              {PB_CMD_set_cycle_plane PB_CMD_init_cycle {CYCL_262 {} 0} thread_mill_2 thread_mill_3 {CYCL_CALL {} 0}}  {thread_mill}
+#Cycles End
+
+#Misc Start
+{Start of Subop Path}      {}  {$gPB(event,misc,subop_start,name)}
+{End of Subop Path}        {}  {$gPB(event,misc,subop_end,name)}
+{User Defined Axis Limit Action}  {}  {$gPB(event,misc,user_limit_action,name)}
+#Misc End
+##Tool Path End
+
+#Operation End Sequence Start
+{Retract Move}             {}  {$gPB(event,opr_end,ret_move,name)}
+{Return Move}              {}  {$gPB(event,opr_end,rtn_move,name)}
+{Gohome Move}              {}  {$gPB(event,opr_end,goh_move,name)}
+{End of Path}              {spindle_off PB_CMD_desactivar_label_fresado_operacion PB_CMD_salida_lbl101 PB_CMD_reset_output_mode PB_CMD_reset_final_values PB_CMD_reset_variables PB_CMD_save_axis_leader PB_CMD_reset_all_motion_variables_to_zero PB_CMD_listado_label_fresado PB_CMD_Introducir_comado PB_CMD_tiempo_op}  {$gPB(event,opr_end,end_path,name)}
+#Operation End Sequence End
+
+#Program End Sequence Start
+{End of Program}           {PB_CMD_posicion_final end_of_program PB_CMD_tiempo_total end_of_program_1 MOM_set_seq_off PB_CMD_renombrar_fichero}  {$gPB(event,end_prog,name)}
+#Program End Sequence End
+
+#Linked Posts Sequence Start
+#Linked Posts Sequence End
+
+#Virtual NC Sequence Start
+#Virtual NC Sequence End
+## SEQUENCE END
+
+## EVENTS ELEMENT EXECUTION START
+{Start of Program} \
+        {11 PB_CMD__check_block_begin_program 0}
+{Start of Path} \
+        {3 PB_CMD__check_block_CYCL_247 0}
+{Initial Move} \
+        {18 NULL 0 {M Text}} \
+        {19 PB_CMD__check_block_plane_spatial_1 0 {Text SPA SPB SPC Text}}
+{First Move} \
+        {19 NULL 0 {M Text}} \
+        {20 PB_CMD__check_block_plane_spatial_1 0 {Text SPA SPB SPC Text}}
+{Spindle RPM} \
+        {1 NULL 0 {S M_spindle}}
+{Linear Move} \
+        {4 PB_CMD__check_block_rotary_axes 0 {G_motion}}
+{Circular Move} \
+        {2 NULL 0 {Text I J}} \
+        {4 NULL 0 {G_motion X Y circle_direction}}
+{Rapid Move} \
+        {1 PB_CMD__check_block_salida_inicial 0} \
+        {2 PB_CMD__check_block_salida_inicial 0 {M_spindle}} \
+        {3 PB_CMD__check_block_rotary_axes 0 {G_motion}}
+{Helix Move} \
+        {2 NULL 0 {circle_direction G_motion}}
+{Cycle Parameters} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Cycle Off} \
+        {0 NULL 0 {M_coolant}}
+{Drill} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Drill Dwell} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Drill Deep} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Drill Break Chip} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Tap} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Tap Float} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Tap Deep} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Tap Break Chip} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Bore} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Bore Drag} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Bore No Drag} \
+        {2 PB_CMD__check_block_CYCL_202 0} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Bore Manual} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Bore Dwell} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Bore Back} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{Bore Manual Dwell} \
+        {4 NULL 0 {G_motion}} \
+        {5 PB_CMD__check_block_cycle_rapid_to 0}
+{End of Path} \
+        {0 PB_CMD__check_block_return_to_reference_point 0}
+## EVENTS ELEMENT EXECUTION END
+
+## EVENTS USER INTERFACE START
+{Tool Change} \
+     {{"$gPB(event,tool_change,time)" 1  V} \
+        {{"null" 1  V} \
+                {"$gPB(event,tool_change,time,tl_chng)" 2  f $mom_kin_tool_change_time null null}}}
+{Length Compensation} \
+     {{"$gPB(event,length_compn,g_code)" 1  V} \
+        {{"null" 1  V} \
+                {"$gPB(event,length_compn,g_code,len_adj)" 2  a $mom_sys_adjust_code UI_PB_tpth_EntryCallBack null}}} \
+     {{"$gPB(event,length_compn,t_code)" 1  V} \
+        {{"null" 1  V} \
+                {"$gPB(event,length_compn,t_code,conf)" 1  n null UI_PB_tpth_ConfToolCode null}}} \
+     {{"$gPB(event,length_compn,len_off)" 1  V} \
+        {{"null" 2  V} \
+                {"$gPB(event,length_compn,len_off,max)" 0  i $tl_len_offs_max null null} \
+                {"$gPB(event,length_compn,len_off,min)" 0  i $tl_len_offs_min null null}}}
+{Set Modes} \
+     {{"$gPB(event,set_modes,out_mode)" 1  V} \
+        {{"null" 1  V} \
+                {"null" 8  n $output_mode_opt null {"Absolute Only" "Incremental Only" "Absolute/Incremental"}}}} \
+     {{"$gPB(event,set_modes,g_code)" 1  V} \
+        {{"null" 2  V} \
+                {"$gPB(event,set_modes,g_code,absolute)" 2  a $mom_sys_output_code(ABSOLUTE) null null} \
+                {"$gPB(event,set_modes,g_code,incremental)" 2  a $mom_sys_output_code(INCREMENTAL) null null}}}
+{Spindle RPM} \
+     {{"$gPB(event,spindle_rpm,dir_m_code)" 1  V} \
+        {{"null" 2  V} \
+                {"$gPB(event,spindle_rpm,dir_m_code,cw)" 2  a $mom_sys_spindle_direction_code(CLW) UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,spindle_rpm,dir_m_code,ccw)" 2  a $mom_sys_spindle_direction_code(CCLW) UI_PB_tpth_EntryCallBack null}}} \
+     {{"$gPB(event,spindle_rpm,range_control)" 1  V} \
+        {{"null" 2  V} \
+                {"$gPB(event,spindle_rpm,range_control,dwell_time)" 0  i $spin_dwell_time null null} \
+                {"$gPB(event,spindle_rpm,range_control,range_code)" 1  n null UI_PB_tpth_SpecifySpindleRangeCodes null}}}
+{Spindle Off} \
+     {{"null" 1  V} \
+        {{"$gPB(event,spindle_off,dir_m_code)" 1  V} \
+                {"$gPB(event,spindle_off,dir_m_code,off)" 2  a $mom_sys_spindle_direction_code(OFF) UI_PB_tpth_EntryCallBack null}}}
+{Coolant On} \
+     {{"null" 1  V} \
+        {{"$gPB(event,coolant_on,m_code)" 5  V} \
+                {"$gPB(event,coolant_on,m_code,on)" 2  a $mom_sys_coolant_code(ON) UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,coolant_on,m_code,flood)" 2  a $mom_sys_coolant_code(FLOOD) UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,coolant_on,m_code,mist)" 2  a $mom_sys_coolant_code(MIST) UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,coolant_on,m_code,thru)" 2  a $mom_sys_coolant_code(THRU) UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,coolant_on,m_code,tap)" 2  a $mom_sys_coolant_code(TAP) UI_PB_tpth_EntryCallBack null}}}
+{Coolant Off} \
+     {{"null" 1  V} \
+        {{"$gPB(event,coolant_off,m_code)" 1  V} \
+                {"$gPB(event,coolant_off,m_code,off)" 2  a $mom_sys_coolant_code(OFF) UI_PB_tpth_EntryCallBack null}}}
+{Inch Metric Mode} \
+     {{"$gPB(event,inch_metric_mode,g_code)" 1  V} \
+        {{"null" 2  V} \
+                {"$gPB(event,inch_metric_mode,g_code,english)" 2  a $mom_sys_unit_code(IN) UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,inch_metric_mode,g_code,metric)" 2  a $mom_sys_unit_code(MM) UI_PB_tpth_EntryCallBack null}}}
+{Feedrates} \
+     {{"$gPB(event,feedrates,mmpm_mode)" 4  V} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,g_code)" 2  a $mom_sys_feed_rate_mode_code(MMPM) UI_PB_tpth_EntryCallBack null}} \
+        {{"$gPB(event,feedrates,format)" 1  V} \
+                {"null" 9  n $mom_sys_feed_param(MMPM,format) UI_PB_tpth_EditFeedFmt null}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,max)" 2  f $mom_kin_max_fpm null null}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,min)" 2  f $mom_kin_min_fpm null null}}} \
+     {{"$gPB(event,feedrates,mmpr_mode)" 4  V} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,g_code)" 2  a $mom_sys_feed_rate_mode_code(MMPR) UI_PB_tpth_EntryCallBack null}} \
+        {{"$gPB(event,feedrates,format)" 1  V} \
+                {"null" 9  n $mom_sys_feed_param(MMPR,format) UI_PB_tpth_EditFeedFmt null}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,max)" 2  f $mom_kin_max_fpr null null}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,min)" 2  f $mom_kin_min_fpr null null}}} \
+     {{"$gPB(event,feedrates,frn_mode)" 4  V} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,g_code)" 2  a $mom_sys_feed_rate_mode_code(FRN) UI_PB_tpth_EntryCallBack null}} \
+        {{"$gPB(event,feedrates,format)" 1  V} \
+                {"null" 9  n $mom_sys_feed_param(FRN,format) UI_PB_tpth_EditFeedFmt null}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,max)" 2  f $mom_kin_max_frn null null}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,min)" 2  f $mom_kin_min_frn null null}}} \
+     {{"$gPB(event,feedrates,dpm_mode)" 4  V} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,g_code)" 2  a $mom_sys_feed_rate_mode_code(DPM) UI_PB_tpth_EntryCallBack null}} \
+        {{"$gPB(event,feedrates,format)" 1  V} \
+                {"null" 9  n $mom_sys_feed_param(DPM,format) UI_PB_tpth_EditFeedFmt null}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,max)" 2  f $mom_kin_max_dpm null null}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,min)" 2  f $mom_kin_min_dpm null null}}} \
+     {{"$gPB(event,feedrates,mode,label)" 7  V} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,mode,lin)" 8  n $mom_sys_contour_feed_mode(LINEAR) null {"MMPM" "MMPR" "FRN"}}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,mode,rot)" 8  n $mom_sys_contour_feed_mode(ROTARY) null {"MMPM" "MMPR" "FRN" "DPM"}}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,mode,lin_rot)" 8  n $mom_sys_contour_feed_mode(LINEAR_ROTARY) null {"MMPM" "MMPR" "FRN" "DPM"}}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,mode,rap_lin)" 8  n $mom_sys_rapid_feed_mode(LINEAR) null {"MMPM" "MMPR" "FRN"}}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,mode,rap_rot)" 8  n $mom_sys_rapid_feed_mode(ROTARY) null {"MMPM" "MMPR" "FRN" "DPM"}}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,mode,rap_lin_rot)" 8  n $mom_sys_rapid_feed_mode(LINEAR_ROTARY) null {"MMPM" "MMPR" "FRN"}}} \
+        {{"null" 1  V} \
+                {"$gPB(event,feedrates,cycle)" 8  n $mom_sys_cycle_feed_mode null {"MMPM" "MMPR" "Auto"}}}}
+{Cutcom On} \
+     {{"$gPB(event,cutcom_on,g_code)" 1  V} \
+        {{"null" 2  V} \
+                {"$gPB(event,cutcom_on,left)" 2  a $mom_sys_cutcom_code(LEFT) UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cutcom_on,right)" 2  a $mom_sys_cutcom_code(RIGHT) UI_PB_tpth_EntryCallBack null}}} \
+     {{"$gPB(event,cutcom_on,app_planes)" 2  V} \
+        {{"null" 3  H} \
+                {"XY" 3  n $cutcom_plane_xy null null} \
+                {"YZ" 3  n $cutcom_plane_yz null null} \
+                {"ZX" 3  n $cutcom_plane_zx null null}} \
+        {{"null" 1  V} \
+                {"$gPB(event,cutcom_on,edit_planes)" 1  n null UI_PB_tpth_EditPlaneCodes null}}} \
+     {{"$gPB(event,cutcom_on,reg)" 1  V} \
+        {{"null" 2  V} \
+                {"$gPB(event,cutcom_on,max)" 0  i $rad_offset_max null null} \
+                {"$gPB(event,cutcom_on,min)" 0  i $rad_offset_min null null}}} \
+     {{"$gPB(event,cutcom_on,bef)" 1  V} \
+        {{"null" 2  H} \
+                {"$gPB(isv,setup,dog_leg,yes)" 4  n $cutcom_off_before_change null Yes} \
+                {"$gPB(isv,setup,dog_leg,no)" 4  n $cutcom_off_before_change null No}}}
+{Cutcom Off} \
+     {{"null" 1  V} \
+        {{"$gPB(event,cutcom_off,g_code)" 1  V} \
+                {"$gPB(event,cutcom_off,off)" 2  a $mom_sys_cutcom_code(OFF) UI_PB_tpth_EntryCallBack null}}}
+{Linear Move} \
+     {{"null" 2  V} \
+        {{"$gPB(event,linear,g_code)" 1  V} \
+                {"$gPB(event,linear,motion)" 2  a $mom_sys_linear_code UI_PB_tpth_EntryCallBack null}} \
+        {{"null" 1  H} \
+                {"$gPB(event,linear,assume)" 3  n $rap_mode_trav_rate null null}}}
+{Circular Move} \
+     {{"$gPB(event,circular,g_code)" 1  V} \
+        {{"null" 2  V} \
+                {"$gPB(event,circular,clockwise)" 2  a $mom_sys_circle_code(CLW) UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,circular,counter-clock)" 2  a $mom_sys_circle_code(CCLW) UI_PB_tpth_EntryCallBack null}}} \
+     {{"$gPB(event,circular,planes)" 2  V} \
+        {{"null" 4  H} \
+                {"XY" 4  n $mom_kin_arc_valid_plane null null} \
+                {"YZ" 4  n $mom_kin_arc_valid_plane null null} \
+                {"ZX" 4  n $mom_kin_arc_valid_plane null null} \
+                {"XYZ" 4  n $mom_kin_arc_valid_plane null null}} \
+        {{"null" 1  V} \
+                {"$gPB(event,circular,edit_planes)" 1  n null UI_PB_tpth_EditPlaneCodes null}}} \
+     {{"$gPB(event,circular,record)" 1  V} \
+        {{"null" 2  H} \
+                {"$gPB(event,circular,full_circle)" 4  n $mom_kin_arc_output_mode null FULL_CIRCLE} \
+                {"$gPB(event,circular,quadrant)" 4  n $mom_kin_arc_output_mode null QUADRANT}}} \
+     {{"$gPB(event,circular,radius)" 1  V} \
+        {{"null" 2  V} \
+                {"$gPB(event,circular,max)" 2  f $mom_kin_max_arc_radius null null} \
+                {"$gPB(event,circular,min)" 2  f $mom_kin_min_arc_radius null null}}} \
+     {{"$gPB(event,circular,ijk_def)" 1  V} \
+        {{"null" 1  V} \
+                {"null" 10  n $mom_sys_cir_vector UI_PB_tpth_IJKParameters {"Vector - Arc Start to Center" "Vector - Arc Center to Start" "Unsigned Vector - Arc Start to Center" "Vector - Absolute Arc Center"}}}} \
+     {{"null" 1  V} \
+        {{"null" 1  V} \
+                {"$gPB(event,circular,arc_len)" 2  f $mom_kin_min_arc_length null null}}}
+{Rapid Move} \
+     {{"null" 2  V} \
+        {{"$gPB(event,rapid,g_code)" 1  V} \
+                {"$gPB(event,rapid,motion)" 2  a $mom_sys_rapid_code UI_PB_tpth_EntryCallBack null}} \
+        {{"null" 1  H} \
+                {"$gPB(event,rapid,plane_change)" 3  n $rap_wrk_pln_chg UI_PB_tpth_EditRapidBlocks null}}}
+{Cycle Parameters} \
+     {{"$gPB(event,cycle,g_code)" 2  H} \
+        {{"null" 14  V} \
+                {"" 7  n null null null} \
+                {"" 7  n null null null} \
+                {"$gPB(event,cycle,customize,Label)" 3  n $mom_sys_sim_cycle_drill null null "event,cycle,customize"} \
+                {"$gPB(event,cycle,customize,Label)" 3  n $mom_sys_sim_cycle_drill_dwell null null "event,cycle,customize"} \
+                {"$gPB(event,cycle,customize,Label)" 3  n $mom_sys_sim_cycle_drill_deep null null "event,cycle,customize"} \
+                {"$gPB(event,cycle,customize,Label)" 3  n $mom_sys_sim_cycle_drill_break_chip null null "event,cycle,customize"} \
+                {"$gPB(event,cycle,customize,Label)" 3  n $mom_sys_sim_cycle_tap null null "event,cycle,customize"} \
+                {"$gPB(event,cycle,customize,Label)" 3  n $mom_sys_sim_cycle_bore null null "event,cycle,customize"} \
+                {"$gPB(event,cycle,customize,Label)" 3  n $mom_sys_sim_cycle_bore_drag null null "event,cycle,customize"} \
+                {"$gPB(event,cycle,customize,Label)" 3  n $mom_sys_sim_cycle_bore_nodrag null null "event,cycle,customize"} \
+                {"$gPB(event,cycle,customize,Label)" 3  n $mom_sys_sim_cycle_bore_manual null null "event,cycle,customize"} \
+                {"$gPB(event,cycle,customize,Label)" 3  n $mom_sys_sim_cycle_bore_dwell null null "event,cycle,customize"} \
+                {"$gPB(event,cycle,customize,Label)" 3  n $mom_sys_sim_cycle_bore_back null null "event,cycle,customize"} \
+                {"$gPB(event,cycle,customize,Label)" 3  n $mom_sys_sim_cycle_bore_manual_dwell null null "event,cycle,customize"}} \
+        {{"null" 14  V} \
+                {"$gPB(event,cycle,start,Label)" 2  a $mom_sys_cycle_start_code UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cycle,cycle_off,name)" 2  a $mom_sys_cycle_off UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cycle,drill,name)" 2  a $mom_sys_cycle_drill_code UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cycle,drill_dwell_sf,name)" 2  a $mom_sys_cycle_drill_dwell_code UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cycle,drill_deep_peck,name)" 2  a $mom_sys_cycle_drill_deep_code UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cycle,drill_brk_chip,name)" 2  a $mom_sys_cycle_drill_break_chip_code UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cycle,tap,name)" 2  a $mom_sys_cycle_tap_code UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cycle,bore_ream,name)" 2  a $mom_sys_cycle_bore_code UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cycle,bore_drag,name)" 2  a $mom_sys_cycle_bore_drag_code UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cycle,bore_no-drag,name)" 2  a $mom_sys_cycle_bore_no_drag_code UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cycle,bore_manual,name)" 2  a $mom_sys_cycle_bore_manual_code UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cycle,bore_dwell,name)" 2  a $mom_sys_cycle_bore_dwell_code UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cycle,bore_back,name)" 2  a $mom_sys_cycle_bore_back_code UI_PB_tpth_EntryCallBack null} \
+                {"$gPB(event,cycle,bore_manual_dwell,name)" 2  a $mom_sys_cycle_bore_manual_dwell_code UI_PB_tpth_EntryCallBack null}}} \
+     {{"null" 4  V} \
+        {{"$gPB(event,cycle,start,Label)" 2  H} \
+                {"G79 X Y Z" 3  n $cycle_start_blk UI_PB_tpth_CycleStartBlks null "event,cycle,start"} \
+                {"$gPB(event,cycle,start,text)" 7  n null null null}} \
+        {{"$gPB(event,cycle,rapid_to)" 1  V} \
+                {"null" 8  n $cycle_rapto_opt UI_PB_tpth_CycleRapidBlks {"None" "R" "Rapid Traverse & R" "Rapid"}}} \
+        {{"$gPB(event,cycle,retract_to)" 1  V} \
+                {"null" 8  n $cycle_recto_opt UI_PB_tpth_CycleRetractBlks {"None" "K" "G98/G99" "Rapid Spindle" "Cycle Off then Rapid Spindle"}}} \
+        {{"$gPB(event,cycle,plane_control)" 1  V} \
+                {"null" 8  n $cycle_plane_control_opt UI_PB_tpth_CyclePlaneElem {"None" "G17/G18/G19"}}}}
+{Cycle Plane Change} \
+     {{"null" 2  V} \
+        {{"null" 1  H} \
+                {"$gPB(event,cycle,plane_change,label)" 3  n $mom_kin_cycle_plane_change_to_lower null null}} \
+        {{"null" 1  H} \
+                {"$gPB(event,cycle,plane_change,axis,label)" 3  n $mom_kin_cycle_plane_change_per_axis null null}}}
+## EVENTS USER INTERFACE END
+
+## MOM SYS VARIABLES START
+{I} \
+      {"$mom_pos_arc_center(0)" "" "Absolute Arc Center X-Axis"}
+{G_plane} \
+      {"$mom_sys_cutcom_plane_code($mom_cutcom_plane)" "\$mom_sys_cutcom_plane_code(XY)" "Cutcom Plane Code (XY/ZX/YZ)"} \
+      {"$mom_sys_cutcom_plane_code($mom_pos_arc_plane)" "\$mom_sys_cutcom_plane_code(XY)" "Arc Plane Code (XY/ZX/YZ)"} \
+      {"$mom_sys_cutcom_plane_code(XY)" "17" "XY Plane Code"} \
+      {"$mom_sys_cutcom_plane_code(ZX)" "18" "ZX Plane Code"} \
+      {"$mom_sys_cutcom_plane_code(YZ)" "19" "YZ Plane Code"}
+{G_adjust} \
+      {"$mom_sys_adjust_code" "43" "Tool Len Adjust Plus"} \
+      {"$mom_sys_adjust_code_minus" "44" "Tool Len Adjust Minus"} \
+      {"$mom_sys_adjust_cancel_code" "49" "Cancel Tool Len Adjust"}
+{G_feed} \
+      {"$mom_sys_feed_rate_mode_code($feed_mode)" "\$mom_sys_feed_rate_mode_code(MMPM)" "Feed Rate Mode"} \
+      {"$mom_sys_feed_rate_mode_code(IPM)" "94" "IPM Feed Rate Mode"} \
+      {"$mom_sys_feed_rate_mode_code(IPR)" "95" "IPR Feed Rate Mode"} \
+      {"$mom_sys_feed_rate_mode_code(FRN)" "93" "FRN Feed Rate Mode"} \
+      {"$mom_sys_feed_rate_mode_code(DPM)" "94" "DPM Feed Rate Mode"} \
+      {"$mom_sys_feed_rate_mode_code(MMPM)" "94" "MMPM Feed Rate Mode"} \
+      {"$mom_sys_feed_rate_mode_code(MMPR)" "95" "MMPR Feed Rate Mode"}
+{G_spin} \
+      {"$mom_sys_spindle_mode_code($mom_spindle_status)" "\$mom_sys_spindle_mode_code(RPM)" "Spindle output Mode (RPM/SFM)"} \
+      {"$mom_sys_spindle_mode_code(SFM)" "96" "Spindle output (CSS)"} \
+      {"$mom_sys_spindle_mode_code(RPM)" "97" "Spindle output (RPM)"}
+{G_return} \
+      {"$mom_sys_cycle_ret_code($mom_cycle_retract_mode)" "\$mom_sys_cycle_ret_code(MANUAL)" "Cycle Return (AUTO/MANUAL)"} \
+      {"$mom_sys_cycle_ret_code(AUTO)" "98" "Cycle Return (AUTO)"} \
+      {"$mom_sys_cycle_ret_code(MANUAL)" "99" "Cycle Return (MANUAL)"}
+{G_motion} \
+      {"$mom_sys_rapid_code" "L" "Rapid Move"} \
+      {"$mom_sys_linear_code" "L" "Linear Move"} \
+      {"$mom_sys_circle_code($mom_arc_direction)" "\$mom_sys_circle_code(CLW)" "Circular Interpolation (CLW/CCLW)"} \
+      {"$mom_sys_circle_code(CLW)" "DR-" "Circular Interpolation CLW"} \
+      {"$mom_sys_circle_code(CCLW)" "DR+" "Circular Interpolation CCLW"}
+{LN} \
+      {"" "" ""}
+{G_mode} \
+      {"$mom_sys_output_code($mom_output_mode)" "\$mom_sys_output_code(ABSOLUTE)" "Absolute/Incremental Mode"} \
+      {"$mom_sys_output_code(ABSOLUTE)" "90" "Absolute Mode"} \
+      {"$mom_sys_output_code(INCREMENTAL)" "91" "Incremental Mode"}
+{G} \
+      {"$mom_prefun" "" "Pre Function"} \
+      {"$mom_sys_delay_code(SECONDS)" "4" "Delay in Seconds"} \
+      {"$mom_sys_delay_code(REVOLUTIONS)" "4" "Delay in Revloutions"} \
+      {"$mom_sys_delay_code($mom_delay_mode)" "\$mom_sys_delay_code(SECONDS)" "Delay (Seconds/Revolutions)"} \
+      {"$mom_sys_reset_code" "92" "Absolute Position Reset"} \
+      {"$mom_sys_unit_code(IN)" "70" "Output Unit (Inch)"} \
+      {"$mom_sys_unit_code(MM)" "71" "Output Unit (Metric)"} \
+      {"$mom_sys_unit_code($mom_output_unit)" "\$mom_sys_unit_code(IN)" "Output Unit (Inch/Metric)"} \
+      {"$mom_work_coordinate_number + 53" "54" "Work Coordinate Selection (54 ~ 59)"} \
+      {"$mom_fixture_offset_value + 53" "54" "MCS Fixture Offset  (54 ~ 59)"} \
+      {"$mom_sys_return_code" "28" "Return Home"} \
+      {"$mom_sys_unit_code($mom_kin_output_unit)" "\$mom_sys_unit_code(IN)" "Post Output Unit (Inch/Metric)"}
+{helix_angle} \
+      {"" "" ""}
+{helix_height} \
+      {"" "" ""}
+{X} \
+      {"$mom_pos(0)" "" "Coordinate"} \
+      {"$mom_from_pos(0)" "" "FROM X Coordinate"} \
+      {"$mom_cycle_feed_to_pos(0)" "" "Cycle Feed X"} \
+      {"$mom_cycle_rapid_to_pos(0)" "" "Rapid X Position in Cycle"} \
+      {"$mom_cycle_retract_to_pos(0)" "" "Retract X Position in Cycle"} \
+      {"$mom_tool_x_offset" "" "Tool X Offset"} \
+      {"$mom_sys_home_pos(0)" "0" "Return Home X"}
+{Y} \
+      {"$mom_pos(1)" "" "Coordinate"} \
+      {"$mom_from_pos(1)" "" "FROM Y Coordinate"} \
+      {"$mom_cycle_feed_to_pos(1)" "" "Cycle Feed Y"} \
+      {"$mom_cycle_rapid_to_pos(1)" "" "Rapid Y Position in Cycle"} \
+      {"$mom_cycle_retract_to_pos(1)" "" "Retract Y Position in Cycle"} \
+      {"$mom_tool_y_offset" "" "Tool Y Offset"} \
+      {"$mom_sys_home_pos(1)" "0" "Return Home Y"}
+{Z} \
+      {"$mom_pos(2)" "" "Coordinate"} \
+      {"$mom_from_pos(2)" "" "FROM Z Coordinate"} \
+      {"$mom_cycle_feed_to_pos(2)" "" "Cycle Feed Z"} \
+      {"$mom_cycle_feed_to" "" "Cycle Feed To Distance"} \
+      {"$mom_cycle_rapid_to - $mom_cycle_feed_to" "" "Cycle Feed To Positive Increment"} \
+      {"$mom_cycle_feed_to - $mom_cycle_rapid_to" "" "Cycle Feed To Negative Increment"} \
+      {"$mom_cycle_rapid_to_pos(2)" "" "Rapid Z Position in Cycle"} \
+      {"$mom_cycle_retract_to_pos(2)" "" "Retract Z Position in Cycle"} \
+      {"$mom_tool_z_offset" "" "Tool Z Offset"} \
+      {"$mom_sys_home_pos(2)" "0" "Return Home Z"}
+{Z_inicial} \
+      {"$mom_pos(2)" "" "Coordinate"} \
+      {"$mom_from_pos(2)" "" "FROM Z Coordinate"} \
+      {"$mom_cycle_feed_to_pos(2)" "" "Cycle Feed Z"} \
+      {"$mom_cycle_feed_to" "" "Cycle Feed To Distance"} \
+      {"$mom_cycle_rapid_to - $mom_cycle_feed_to" "" "Cycle Feed To Positive Increment"} \
+      {"$mom_cycle_feed_to - $mom_cycle_rapid_to" "" "Cycle Feed To Negative Increment"} \
+      {"$mom_cycle_rapid_to_pos(2)" "" "Rapid Z Position in Cycle"} \
+      {"$mom_cycle_retract_to_pos(2)" "" "Retract Z Position in Cycle"} \
+      {"$mom_tool_z_offset" "" "Tool Z Offset"} \
+      {"$mom_sys_home_pos(2)" "0" "Return Home Z"}
+{Z_label} \
+      {"$mom_pos(2)" "" "Coordinate"} \
+      {"$mom_from_pos(2)" "" "FROM Z Coordinate"} \
+      {"$mom_cycle_feed_to_pos(2)" "" "Cycle Feed Z"} \
+      {"$mom_cycle_feed_to" "" "Cycle Feed To Distance"} \
+      {"$mom_cycle_rapid_to - $mom_cycle_feed_to" "" "Cycle Feed To Positive Increment"} \
+      {"$mom_cycle_feed_to - $mom_cycle_rapid_to" "" "Cycle Feed To Negative Increment"} \
+      {"$mom_cycle_rapid_to_pos(2)" "" "Rapid Z Position in Cycle"} \
+      {"$mom_cycle_retract_to_pos(2)" "" "Retract Z Position in Cycle"} \
+      {"$mom_tool_z_offset" "" "Tool Z Offset"} \
+      {"$mom_sys_home_pos(2)" "0" "Return Home Z"}
+{YV} \
+      {"$mom_pos(2)" "" "Coordinate"} \
+      {"$mom_from_pos(2)" "" "FROM Z Coordinate"} \
+      {"$mom_cycle_feed_to_pos(2)" "" "Cycle Feed Z"} \
+      {"$mom_cycle_feed_to" "" "Cycle Feed To Distance"} \
+      {"$mom_cycle_rapid_to - $mom_cycle_feed_to" "" "Cycle Feed To Positive Increment"} \
+      {"$mom_cycle_feed_to - $mom_cycle_rapid_to" "" "Cycle Feed To Negative Increment"} \
+      {"$mom_cycle_rapid_to_pos(2)" "" "Rapid Z Position in Cycle"} \
+      {"$mom_cycle_retract_to_pos(2)" "" "Retract Z Position in Cycle"} \
+      {"$mom_tool_z_offset" "" "Tool Z Offset"} \
+      {"$mom_sys_home_pos(2)" "0" "Return Home Z"}
+{YV_inicial} \
+      {"$mom_pos(2)" "" "Coordinate"} \
+      {"$mom_from_pos(2)" "" "FROM Z Coordinate"} \
+      {"$mom_cycle_feed_to_pos(2)" "" "Cycle Feed Z"} \
+      {"$mom_cycle_feed_to" "" "Cycle Feed To Distance"} \
+      {"$mom_cycle_rapid_to - $mom_cycle_feed_to" "" "Cycle Feed To Positive Increment"} \
+      {"$mom_cycle_feed_to - $mom_cycle_rapid_to" "" "Cycle Feed To Negative Increment"} \
+      {"$mom_cycle_rapid_to_pos(2)" "" "Rapid Z Position in Cycle"} \
+      {"$mom_cycle_retract_to_pos(2)" "" "Retract Z Position in Cycle"} \
+      {"$mom_tool_z_offset" "" "Tool Z Offset"} \
+      {"$mom_sys_home_pos(2)" "0" "Return Home Z"}
+{V} \
+      {"$mom_pos(2)" "" "Coordinate"} \
+      {"$mom_from_pos(2)" "" "FROM Z Coordinate"} \
+      {"$mom_cycle_feed_to_pos(2)" "" "Cycle Feed Z"} \
+      {"$mom_cycle_feed_to" "" "Cycle Feed To Distance"} \
+      {"$mom_cycle_rapid_to - $mom_cycle_feed_to" "" "Cycle Feed To Positive Increment"} \
+      {"$mom_cycle_feed_to - $mom_cycle_rapid_to" "" "Cycle Feed To Negative Increment"} \
+      {"$mom_cycle_rapid_to_pos(2)" "" "Rapid Z Position in Cycle"} \
+      {"$mom_cycle_retract_to_pos(2)" "" "Retract Z Position in Cycle"} \
+      {"$mom_tool_z_offset" "" "Tool Z Offset"} \
+      {"$mom_sys_home_pos(2)" "0" "Return Home Z"}
+{VY} \
+      {"$mom_pos(2)" "" "Coordinate"} \
+      {"$mom_from_pos(2)" "" "FROM Z Coordinate"} \
+      {"$mom_cycle_feed_to_pos(2)" "" "Cycle Feed Z"} \
+      {"$mom_cycle_feed_to" "" "Cycle Feed To Distance"} \
+      {"$mom_cycle_rapid_to - $mom_cycle_feed_to" "" "Cycle Feed To Positive Increment"} \
+      {"$mom_cycle_feed_to - $mom_cycle_rapid_to" "" "Cycle Feed To Negative Increment"} \
+      {"$mom_cycle_rapid_to_pos(2)" "" "Rapid Z Position in Cycle"} \
+      {"$mom_cycle_retract_to_pos(2)" "" "Retract Z Position in Cycle"} \
+      {"$mom_tool_z_offset" "" "Tool Z Offset"} \
+      {"$mom_sys_home_pos(2)" "0" "Return Home Z"}
+{fourth_axis} \
+      {"$mom_out_angle_pos(0)" "" "4th Axis Angle"} \
+      {"$mom_out_angle_pos(1)" "" "5th Axis Angle"}
+{fifth_axis} \
+      {"$mom_out_angle_pos(0)" "" "4th Axis Angle"} \
+      {"$mom_out_angle_pos(1)" "" "5th Axis Angle"}
+{J} \
+      {"$mom_pos_arc_center(1)" "" "Absolute Arc Center Y-Axis"}
+{K} \
+      {"$mom_pos_arc_center(2)" "" "Absolute Arc Center Z-Axis"}
+{circle_direction} \
+      {"" "" ""}
+{R} \
+      {"$mom_arc_radius" "" "Arc Radius"} \
+      {"$mom_cycle_rapid_to_pos($mom_cycle_spindle_axis)" "" "Rapid Position in Cycle"} \
+      {"$mom_cycle_rapid_to" "" "Cycle Rapid To Distance"}
+{M128} \
+      {"" "" ""}
+{NX} \
+      {"" "" ""}
+{NY} \
+      {"" "" ""}
+{NZ} \
+      {"" "" ""}
+{TX} \
+      {"" "" ""}
+{TY} \
+      {"" "" ""}
+{TZ} \
+      {"" "" ""}
+{G_cutcom} \
+      {"$mom_sys_cutcom_code($mom_cutcom_status)" "\$mom_sys_cutcom_code(LEFT)" "Cutcom (LEFT/RIGHT/OFF)"} \
+      {"$mom_sys_cutcom_code(LEFT)" "RL" "Cutcom Left"} \
+      {"$mom_sys_cutcom_code(RIGHT)" "RR" "Cutcom Right"} \
+      {"$mom_sys_cutcom_code(OFF)" "R0" "Cutcom Off"}
+{cutter_comp} \
+      {"" "" ""}
+{F} \
+      {"$feed" "" "Feed Rate"}
+{FMAX} \
+      {"" "" ""}
+{T} \
+      {"$mom_tool_number" "" "Tool Select"} \
+      {"$mom_next_tool_number" "" "Tool Pre-Select"}
+{S} \
+      {"$mom_spindle_speed" "" "Spindle Speed"} \
+      {"$mom_spindle_maximum_rpm" "" "Spindle Max RPM"}
+{D} \
+      {"$mom_cutcom_adjust_register" "1" "Tool Radius Compensation"}
+{H} \
+      {"$mom_tool_adjust_register" "1" "Tool Adjust Register"} \
+      {"$mom_sys_zero" "0" "Cancel Tool Adjust"}
+{dwell} \
+      {"$mom_delay_value" "" "Programmed Dwell"}
+{cycle_dwell} \
+      {"$mom_cycle_delay" "" "Delay For Cycle Dwell"}
+{P_cutcom} \
+      {"$pval" "" "Cutcom (Custom Command)"}
+{K_cycle} \
+      {"$mom_cycle_retract_to_pos($mom_cycle_spindle_axis)" "" "Retract Position in Cycle"} \
+      {"$mom_cycle_retract_to" "" "Cycle Retract To Distance"}
+{cycle_step1} \
+      {"$mom_cycle_step2" "" "Step Incr Modifier"}
+{cycle_step} \
+      {"$mom_cycle_step1" "" "Step Incr Value"}
+{Q_cutcom} \
+      {"$qval" "" "Cutcom (Custom Command)"}
+{E} \
+      {"$mom_thread_increment" "" "Thread Increment"}
+{M_spindle} \
+      {"$mom_sys_spindle_direction_code($mom_spindle_direction)" "\$mom_sys_spindle_direction_code(CLW)" "Spindle Direction (CLW/CCLW)"} \
+      {"$mom_sys_spindle_direction_code(CLW)" "3" "CLW Spindle Direction"} \
+      {"$mom_sys_spindle_direction_code(CCLW)" "4" "CCLW Spindle Direction"} \
+      {"$mom_sys_spindle_direction_code(OFF)" "5" "Spindle Off"}
+{M_range} \
+      {"$mom_sys_spindle_range_code($mom_spindle_range)" "41" "Spindle Range"}
+{coolant_inside} \
+      {"" "" ""}
+{M_coolant} \
+      {"$mom_sys_coolant_code($mom_coolant_status)" "\$mom_sys_coolant_code(FLOOD)" "Coolant Code (FLOOD/MIST/ON..)"} \
+      {"$mom_sys_coolant_code(ON)" "8" "Coolant On"} \
+      {"$mom_sys_coolant_code(FLOOD)" "8" "Coolant Flood"} \
+      {"$mom_sys_coolant_code(MIST)" "7" "Coolant Mist"} \
+      {"$mom_sys_coolant_code(THRU)" "26" "Coolant Thru"} \
+      {"$mom_sys_coolant_code(TAP)" "25" "Coolant Tap"} \
+      {"$mom_sys_coolant_code(OFF)" "9" "Coolant Off"}
+{M} \
+      {"$mom_sys_optional_stop_code" "1" "Optional Stop"} \
+      {"$mom_auxfun" "" "Aux Function"} \
+      {"$mom_sys_program_stop_code" "0" "Stop Program"} \
+      {"$mom_sys_end_of_program_code" "2" "End Of program"} \
+      {"$mom_sys_rewind_code" "30" "Rewind Program"} \
+      {"$mom_sys_tool_change_code" "6" "Tool Change"}
+{TL} \
+      {"" "" ""}
+{TR} \
+      {"" "" ""}
+{SPA} \
+      {"" "" ""}
+{SPB} \
+      {"" "" ""}
+{SPC} \
+      {"" "" ""}
+{tolerance} \
+      {"" "" ""}
+{angle_tolerance} \
+      {"" "" ""}
+{IX} \
+      {"" "" ""}
+{IY} \
+      {"" "" ""}
+{IZ} \
+      {"" "" ""}
+{coolant_air_outside} \
+      {"" "" ""}
+{coolant_air_inside} \
+      {"" "" ""}
+{feed_cut} \
+      {"" "" ""}
+{feed_engage} \
+      {"" "" ""}
+{feed_retract} \
+      {"" "" ""}
+{Q203} \
+      {"" "" ""}
+{home_position_x} \
+      {"" "" ""}
+{home_position_y} \
+      {"" "" ""}
+{home_position_z} \
+      {"" "" ""}
+{user_add} \
+      {"" "" ""}
+{SPOS} \
+      {"" "" ""}
+{spindle_orient} \
+      {"" "" ""}
+{N} \
+      {"$mom_seqnum" "" "Sequence Number"}
+{Text} \
+      {"" "" ""}
+{New_Address} \
+      {"" "" ""}
+{PB_Dummy} \
+      {"post_startblk" "PB_CMD_config_cycle_start" ""} \
+      {"User_Def_Axis_Limit_Act" "\{\}" ""} \
+      {"Link_Char" "" ""} \
+      {"Include_UDE" "1" ""} \
+      {"UDE_File_Name" "\$UGII_CAM_USER_DEF_EVENT_DIR/ude.cdl" ""} \
+      {"Output_VNC" "0" ""} \
+      {"VNC_Mode" "Standalone" ""} \
+      {"Main_VNC" "" ""} \
+      {"Decimal_Point" "." ""} \
+      {"Comment_Start" "; " ""} \
+      {"Comment_End" "" ""} \
+      {"seq_blk_nc_code" "0" ""} \
+      {"$mom_sys_blank_code" "" ""} \
+      {"$is_linked_post" "0" ""} \
+      {"$linked_posts_list" "\{\{\} \{this_post\}\}" ""} \
+      {"$tl_num_min" "1" ""} \
+      {"$tl_num_max" "32" ""} \
+      {"$tl_change_sec" "" ""} \
+      {"$tl_retract_status" "1" ""} \
+      {"$tl_retract_z_pos" "99" ""} \
+      {"$output_mode_opt" "Absolute/Incremental" ""} \
+      {"$cutcom_plane_xy" "1" ""} \
+      {"$cutcom_plane_yz" "0" ""} \
+      {"$cutcom_plane_zx" "0" ""} \
+      {"$rad_offset_min" "1" ""} \
+      {"$rad_offset_max" "99" ""} \
+      {"$tl_len_offs_min" "1" ""} \
+      {"$tl_len_offs_max" "20" ""} \
+      {"$spin_fmt_type" "None" ""} \
+      {"$spin_dwell_time" "0" ""} \
+      {"$cir_record_output" "YES" ""} \
+      {"$rap_wrk_pln_chg" "0" ""} \
+      {"$rap_mode_trav_rate" "0" ""} \
+      {"$rap_mode_trav_value" "100" ""} \
+      {"$cycle_rapto_opt" "None" ""} \
+      {"$cycle_recto_opt" "None" ""} \
+      {"$cycle_plane_control_opt" "None" ""} \
+      {"$cycle_start_blk" "1" ""} \
+      {"$tool_num_output" "TOOL_NUMBER_ONLY" ""} \
+      {"$cutcom_off_before_change" "NO" ""} \
+      {"SeqNo_output" "0" ""} \
+      {"$gcode_status" "0" ""} \
+      {"$mcode_status" "0" ""} \
+      {"$oth_rev_xy_plane" "0" ""} \
+      {"$oth_rev_yz_plane" "0" ""} \
+      {"$oth_rev_zx_plane" "0" ""} \
+      {"$oth_sup_out_ijk_zero" "0" ""} \
+      {"$oth_sup_out_ijk_xyz" "0" ""} \
+      {"$mom_usd_add_var" "" ""} \
+      {"$evt_ncoutput_status" "Output_Imediately" ""} \
+      {"$4th_axis_direction" "Magnitude_Determines_Direction" ""} \
+      {"$xaxis_dia_prog" "0" ""} \
+      {"$i_dia_prog" "0" ""} \
+      {"$yaxis_dia_prog" "0" ""} \
+      {"$j_dia_prog" "0" ""} \
+      {"$xaxis_mirror" "0" ""} \
+      {"$yaxis_mirror" "0" ""} \
+      {"$zaxis_mirror" "0" ""} \
+      {"$i_mirror" "0" ""} \
+      {"$j_mirror" "0" ""} \
+      {"$k_mirror" "0" ""} \
+      {"Disable_Ref_Word" "1" ""} \
+      {"$5th_axis_direction" "Magnitude_Determines_Direction" ""} \
+      {"$mom_sys_p_cutcom_code" "CC" ""} \
+      {"$mom_sys_q_cutcom_code" "CC" ""} \
+      {"$mom_sys_cycle_retract_to" "CY" ""} \
+      {"$mom_sys_cycle_step1" "CS" ""} \
+      {"$mom_sys_cycle_step2" "CS" ""} \
+      {"$mom_sys_delay_value" "DW" ""} \
+      {"$mom_sys_cycle_delay" "CD" ""} \
+      {"$output_rot_incr_status" "0" ""} \
+      {"$linearization_method" "angle" ""}
+{PB_Tcl_Var} \
+      {"$mom_sys_4th_axis_has_limits" "1" ""} \
+      {"$mom_sys_5th_axis_has_limits" "1" ""} \
+      {"$mom_sys_sim_cycle_drill" "0" ""} \
+      {"$mom_sys_sim_cycle_drill_dwell" "0" ""} \
+      {"$mom_sys_sim_cycle_drill_deep" "0" ""} \
+      {"$mom_sys_sim_cycle_drill_break_chip" "0" ""} \
+      {"$mom_sys_sim_cycle_tap" "0" ""} \
+      {"$mom_sys_sim_cycle_bore" "0" ""} \
+      {"$mom_sys_sim_cycle_bore_drag" "0" ""} \
+      {"$mom_sys_sim_cycle_bore_nodrag" "0" ""} \
+      {"$mom_sys_sim_cycle_bore_manual" "0" ""} \
+      {"$mom_sys_sim_cycle_bore_dwell" "0" ""} \
+      {"$mom_sys_sim_cycle_bore_manual_dwell" "0" ""} \
+      {"$mom_sys_sim_cycle_bore_back" "0" ""} \
+      {"$mom_sys_cir_vector" "Vector - Absolute Arc Center" ""} \
+      {"$mom_sys_spindle_ranges" "0" ""} \
+      {"$mom_sys_gcodes_per_block" "10" ""} \
+      {"$mom_sys_mcodes_per_block" "5" ""} \
+      {"$mom_sys_rewind_stop_code" "\#" ""} \
+      {"$mom_sys_home_pos(0)" "0" ""} \
+      {"$mom_sys_home_pos(1)" "0" ""} \
+      {"$mom_sys_home_pos(2)" "0" ""} \
+      {"$mom_sys_zero" "0" ""} \
+      {"$mom_sys_opskip_block_leader" "/" ""} \
+      {"$mom_sys_seqnum_start" "1" ""} \
+      {"$mom_sys_seqnum_incr" "1" ""} \
+      {"$mom_sys_seqnum_freq" "1" ""} \
+      {"$mom_sys_seqnum_max" "99999" ""} \
+      {"$mom_sys_lathe_x_double" "1" ""} \
+      {"$mom_sys_lathe_i_double" "1" ""} \
+      {"$mom_sys_lathe_y_double" "1" ""} \
+      {"$mom_sys_lathe_j_double" "1" ""} \
+      {"$mom_sys_lathe_x_factor" "1" ""} \
+      {"$mom_sys_lathe_y_factor" "1" ""} \
+      {"$mom_sys_lathe_z_factor" "1" ""} \
+      {"$mom_sys_lathe_i_factor" "1" ""} \
+      {"$mom_sys_lathe_j_factor" "1" ""} \
+      {"$mom_sys_lathe_k_factor" "1" ""} \
+      {"$mom_sys_leader(N)" "" ""} \
+      {"$mom_sys_leader(X)" "X" ""} \
+      {"$mom_sys_leader(Y)" "Y" ""} \
+      {"$mom_sys_leader(Z)" "Z" ""} \
+      {"$mom_sys_leader(fourth_axis)" "B" ""} \
+      {"$mom_sys_leader(fifth_axis)" "A" ""} \
+      {"$mom_sys_contour_feed_mode(LINEAR)" "MMPM" ""} \
+      {"$mom_sys_rapid_feed_mode(LINEAR)" "MMPM" ""} \
+      {"$mom_sys_cycle_feed_mode" "MMPM" ""} \
+      {"$mom_sys_feed_param(IPM,format)" "Feed_IPM" ""} \
+      {"$mom_sys_feed_param(IPR,format)" "Feed_IPR" ""} \
+      {"$mom_sys_feed_param(FRN,format)" "Feed_INV" ""} \
+      {"$mom_sys_vnc_rapid_dogleg" "1" ""} \
+      {"$mom_sys_prev_mach_head" "" ""} \
+      {"$mom_sys_curr_mach_head" "" ""} \
+      {"$mom_sys_contour_feed_mode(ROTARY)" "MMPM" ""} \
+      {"$mom_sys_contour_feed_mode(LINEAR_ROTARY)" "MMPM" ""} \
+      {"$mom_sys_feed_param(DPM,format)" "Feed_DPM" ""} \
+      {"$mom_sys_rapid_feed_mode(ROTARY)" "MMPM" ""} \
+      {"$mom_sys_rapid_feed_mode(LINEAR_ROTARY)" "MMPM" ""} \
+      {"$mom_sys_feed_param(MMPM,format)" "Feed_MMPM" ""} \
+      {"$mom_sys_feed_param(MMPR,format)" "Feed_MMPR" ""} \
+      {"$mom_sys_retract_distance" "10" ""} \
+      {"$mom_sys_advanced_turbo_output" "0" ""}
+{Command} \
+      {"Custom Command" "" "New Custom Command"} \
+      {"MOM_set_seq_off" "" "MOM Command"} \
+      {"MOM_set_seq_on" "" "MOM Command"} \
+      {"PB_CMD_CAMBIO_HTA" "" "Custom Command"} \
+      {"PB_CMD_CYCL_32" "" "Custom Command"} \
+      {"PB_CMD_CYCL_397" "" "Custom Command"} \
+      {"PB_CMD_FEEDRATE_NUMBER" "" "Custom Command"} \
+      {"PB_CMD_FEEDRATE_SET" "" "Custom Command"} \
+      {"PB_CMD_HTA_CAMB_CAB" "" "Custom Command"} \
+      {"PB_CMD_Introducir_comado" "" "Custom Command"} \
+      {"PB_CMD_M128_output" "" "Custom Command"} \
+      {"PB_CMD_MOM_clamp" "" "Custom Command"} \
+      {"PB_CMD_MOM_insert" "" "Custom Command"} \
+      {"PB_CMD_MOM_lock_axis" "" "Custom Command"} \
+      {"PB_CMD_MOM_operator_message" "" "Custom Command"} \
+      {"PB_CMD_MOM_opskip_off" "" "Custom Command"} \
+      {"PB_CMD_MOM_opskip_on" "" "Custom Command"} \
+      {"PB_CMD_MOM_pprint" "" "Custom Command"} \
+      {"PB_CMD_MOM_rotate" "" "Custom Command"} \
+      {"PB_CMD_MOM_text" "" "Custom Command"} \
+      {"PB_CMD_Puntos_label" "" "Custom Command"} \
+      {"PB_CMD_REFRI" "" "Custom Command"} \
+      {"PB_CMD_UDE_datum_setting" "" "Custom Command"} \
+      {"PB_CMD___log_revisions" "" "Custom Command"} \
+      {"PB_CMD__catch_warning" "" "Custom Command"} \
+      {"PB_CMD__check_block_CYCL_202" "" "Custom Command"} \
+      {"PB_CMD__check_block_CYCL_247" "" "Custom Command"} \
+      {"PB_CMD__check_block_CYCL_397" "" "Custom Command"} \
+      {"PB_CMD__check_block_M138" "" "Custom Command"} \
+      {"PB_CMD__check_block_begin_program" "" "Custom Command"} \
+      {"PB_CMD__check_block_cab_directo" "" "Custom Command"} \
+      {"PB_CMD__check_block_cycle_rapid_to" "" "Custom Command"} \
+      {"PB_CMD__check_block_cycle_rapidtoZ" "" "Custom Command"} \
+      {"PB_CMD__check_block_datum_shift" "" "Custom Command"} \
+      {"PB_CMD__check_block_label" "" "Custom Command"} \
+      {"PB_CMD__check_block_label_mill_2" "" "Custom Command"} \
+      {"PB_CMD__check_block_m140" "" "Custom Command"} \
+      {"PB_CMD__check_block_m140_1" "" "Custom Command"} \
+      {"PB_CMD__check_block_output_m128" "" "Custom Command"} \
+      {"PB_CMD__check_block_plane_reset" "" "Custom Command"} \
+      {"PB_CMD__check_block_plane_spatial" "" "Custom Command"} \
+      {"PB_CMD__check_block_plane_spatial_1" "" "Custom Command"} \
+      {"PB_CMD__check_block_rapid_rotary" "" "Custom Command"} \
+      {"PB_CMD__check_block_return_home" "" "Custom Command"} \
+      {"PB_CMD__check_block_return_home_xy" "" "Custom Command"} \
+      {"PB_CMD__check_block_return_home_xy_1" "" "Custom Command"} \
+      {"PB_CMD__check_block_return_home_z" "" "Custom Command"} \
+      {"PB_CMD__check_block_return_home_z_1" "" "Custom Command"} \
+      {"PB_CMD__check_block_return_to_reference_point" "" "Custom Command"} \
+      {"PB_CMD__check_block_rotary_axes" "" "Custom Command"} \
+      {"PB_CMD__check_block_salida_inicial" "" "Custom Command"} \
+      {"PB_CMD__check_block_spindle_on" "" "Custom Command"} \
+      {"PB_CMD__check_block_tap_cycle" "" "Custom Command"} \
+      {"PB_CMD__check_block_tool_preselect" "" "Custom Command"} \
+      {"PB_CMD__check_block_vector" "" "Custom Command"} \
+      {"PB_CMD__config_post_options" "" "Custom Command"} \
+      {"PB_CMD__define_debug_msg" "" "Custom Command"} \
+      {"PB_CMD__manage_part_attributes" "" "Custom Command"} \
+      {"PB_CMD_abort_event" "" "Custom Command"} \
+      {"PB_CMD_add_fixture" "" "Custom Command"} \
+      {"PB_CMD_add_preset" "" "Custom Command"} \
+      {"PB_CMD_after_rapid" "" "Custom Command"} \
+      {"PB_CMD_ask_machine_type" "" "Custom Command"} \
+      {"PB_CMD_before_motion" "" "Custom Command"} \
+      {"PB_CMD_before_output" "" "Custom Command"} \
+      {"PB_CMD_before_rapid" "" "Custom Command"} \
+      {"PB_CMD_calculo_C_auto" "" "Custom Command"} \
+      {"PB_CMD_calculo_C_directo" "" "Custom Command"} \
+      {"PB_CMD_cambio_fichero" "" "Custom Command"} \
+      {"PB_CMD_cancel_suppress_force_once_per_event" "" "Custom Command"} \
+      {"PB_CMD_cancelar_label_tal" "" "Custom Command"} \
+      {"PB_CMD_cero_operacion" "" "Custom Command"} \
+      {"PB_CMD_cero_operacion_2" "" "Custom Command"} \
+      {"PB_CMD_cero_pieza_operario" "" "Custom Command"} \
+      {"PB_CMD_check_plane_change_in_rapid_move" "" "Custom Command"} \
+      {"PB_CMD_clamp_fifth_axis" "" "Custom Command"} \
+      {"PB_CMD_clamp_fourth_axis" "" "Custom Command"} \
+      {"PB_CMD_clearance_plane_change" "" "Custom Command"} \
+      {"PB_CMD_comandos_iniciales" "" "Custom Command"} \
+      {"PB_CMD_config_cycle_start" "" "Custom Command"} \
+      {"PB_CMD_coord_rotation_in_operation" "" "Custom Command"} \
+      {"PB_CMD_custom_command" "" "Custom Command"} \
+      {"PB_CMD_custom_command_1" "" "Custom Command"} \
+      {"PB_CMD_custom_command_2" "" "Custom Command"} \
+      {"PB_CMD_custom_command_3" "" "Custom Command"} \
+      {"PB_CMD_customize_output_mode" "" "Custom Command"} \
+      {"PB_CMD_cycl_32_1" "" "Custom Command"} \
+      {"PB_CMD_cycle_coord_rotation" "" "Custom Command"} \
+      {"PB_CMD_cycle_plane_change" "" "Custom Command"} \
+      {"PB_CMD_define_feed_value" "" "Custom Command"} \
+      {"PB_CMD_define_feed_variable_value" "" "Custom Command"} \
+      {"PB_CMD_define_feedrate_format" "" "Custom Command"} \
+      {"PB_CMD_define_feedrate_format_drill" "" "Custom Command"} \
+      {"PB_CMD_define_fixture_csys" "" "Custom Command"} \
+      {"PB_CMD_define_fixture_csys_1" "" "Custom Command"} \
+      {"PB_CMD_define_work_plane" "" "Custom Command"} \
+      {"PB_CMD_define_work_plane_cycle" "" "Custom Command"} \
+      {"PB_CMD_desact_init" "" "Custom Command"} \
+      {"PB_CMD_desact_init_1" "" "Custom Command"} \
+      {"PB_CMD_desactivar_label_fresado_operacion" "" "Custom Command"} \
+      {"PB_CMD_detect_coolant_through" "" "Custom Command"} \
+      {"PB_CMD_detect_csys_rotation" "" "Custom Command"} \
+      {"PB_CMD_detect_csys_rotation_1" "" "Custom Command"} \
+      {"PB_CMD_detect_local_offset" "" "Custom Command"} \
+      {"PB_CMD_detect_local_offset_1" "" "Custom Command"} \
+      {"PB_CMD_detect_tool_path_type" "" "Custom Command"} \
+      {"PB_CMD_detect_tool_path_type_1" "" "Custom Command"} \
+      {"PB_CMD_detectar_cambio_herramienta" "" "Custom Command"} \
+      {"PB_CMD_detectar_label_fresado" "" "Custom Command"} \
+      {"PB_CMD_enable_spindle" "" "Custom Command"} \
+      {"PB_CMD_end_of_alignment_character" "" "Custom Command"} \
+      {"PB_CMD_fifth_axis_rotate_move" "" "Custom Command"} \
+      {"PB_CMD_final_program" "" "Custom Command"} \
+      {"PB_CMD_fix_RAPID_SET" "" "Custom Command"} \
+      {"PB_CMD_forzar_MOM_eje_compensar" "" "Custom Command"} \
+      {"PB_CMD_forzar_MOM_ejes_paralelos" "" "Custom Command"} \
+      {"PB_CMD_forzar_MOM_set_axis_y_modes" "" "Custom Command"} \
+      {"PB_CMD_fourth_axis_rotate_move" "" "Custom Command"} \
+      {"PB_CMD_gestion_Z_label_fresado" "" "Custom Command"} \
+      {"PB_CMD_get_feed_value" "" "Custom Command"} \
+      {"PB_CMD_giro_C" "" "Custom Command"} \
+      {"PB_CMD_go_home_pos" "" "Custom Command"} \
+      {"PB_CMD_handle_sync_event" "" "Custom Command"} \
+      {"PB_CMD_helix_move" "" "Custom Command"} \
+      {"PB_CMD_helix_move_xyz" "" "Custom Command"} \
+      {"PB_CMD_info" "" "Custom Command"} \
+      {"PB_CMD_info_avances" "" "Custom Command"} \
+      {"PB_CMD_info_hta" "" "Custom Command"} \
+      {"PB_CMD_info_metodo" "" "Custom Command"} \
+      {"PB_CMD_info_oper" "" "Custom Command"} \
+      {"PB_CMD_inicio_operacion" "" "Custom Command"} \
+      {"PB_CMD_init_cutcom_status" "" "Custom Command"} \
+      {"PB_CMD_init_cycle" "" "Custom Command"} \
+      {"PB_CMD_init_force_address" "" "Custom Command"} \
+      {"PB_CMD_init_force_address_1" "" "Custom Command"} \
+      {"PB_CMD_init_helix" "" "Custom Command"} \
+      {"PB_CMD_init_operation" "" "Custom Command"} \
+      {"PB_CMD_init_parallel_zw_mode" "" "Custom Command"} \
+      {"PB_CMD_init_rotary" "" "Custom Command"} \
+      {"PB_CMD_init_tap_cycle" "" "Custom Command"} \
+      {"PB_CMD_init_tnc_output_mode" "" "Custom Command"} \
+      {"PB_CMD_init_vars" "" "Custom Command"} \
+      {"PB_CMD_introducir_comando" "" "Custom Command"} \
+      {"PB_CMD_kin__MOM_lintol" "" "Custom Command"} \
+      {"PB_CMD_kin__MOM_rotate" "" "Custom Command"} \
+      {"PB_CMD_kin_abort_event" "" "Custom Command"} \
+      {"PB_CMD_kin_before_motion" "" "Custom Command"} \
+      {"PB_CMD_kin_before_output" "" "Custom Command"} \
+      {"PB_CMD_kin_catch_warning" "" "Custom Command"} \
+      {"PB_CMD_kin_end_of_path" "" "Custom Command"} \
+      {"PB_CMD_kin_feedrate_set" "" "Custom Command"} \
+      {"PB_CMD_kin_handle_sync_event" "" "Custom Command"} \
+      {"PB_CMD_kin_init_new_iks" "" "Custom Command"} \
+      {"PB_CMD_kin_init_probing_cycles" "" "Custom Command"} \
+      {"PB_CMD_kin_init_rotary" "" "Custom Command"} \
+      {"PB_CMD_kin_set_csys" "" "Custom Command"} \
+      {"PB_CMD_kin_start_of_path" "" "Custom Command"} \
+      {"PB_CMD_kin_start_of_program" "" "Custom Command"} \
+      {"PB_CMD_linear_move" "" "Custom Command"} \
+      {"PB_CMD_listado_label_fresado" "" "Custom Command"} \
+      {"PB_CMD_llamada_label" "" "Custom Command"} \
+      {"PB_CMD_llamada_label_taladrado" "" "Custom Command"} \
+      {"PB_CMD_machine_kinematics" "" "Custom Command"} \
+      {"PB_CMD_maquina" "" "Custom Command"} \
+      {"PB_CMD_nurbs_initialize" "" "Custom Command"} \
+      {"PB_CMD_nurbs_move" "" "Custom Command"} \
+      {"PB_CMD_operator_message" "" "Custom Command"} \
+      {"PB_CMD_output_coordinate_offset" "" "Custom Command"} \
+      {"PB_CMD_output_return_home" "" "Custom Command"} \
+      {"PB_CMD_output_start_of_program" "" "Custom Command"} \
+      {"PB_CMD_parada_opcional" "" "Custom Command"} \
+      {"PB_CMD_parametros_plane_spatial" "" "Custom Command"} \
+      {"PB_CMD_pause" "" "Custom Command"} \
+      {"PB_CMD_pos_inicial_Z_W" "" "Custom Command"} \
+      {"PB_CMD_posicion_final" "" "Custom Command"} \
+      {"PB_CMD_post_name" "" "Custom Command"} \
+      {"PB_CMD_preset" "" "Custom Command"} \
+      {"PB_CMD_reload_iks_parameters" "" "Custom Command"} \
+      {"PB_CMD_reload_kinematic_vars" "" "Custom Command"} \
+      {"PB_CMD_renombrar_fichero" "" "Custom Command"} \
+      {"PB_CMD_reposition_move" "" "Custom Command"} \
+      {"PB_CMD_reset_5axis_control_mode" "" "Custom Command"} \
+      {"PB_CMD_reset_all_motion_variables_to_zero" "" "Custom Command"} \
+      {"PB_CMD_reset_cycl7" "" "Custom Command"} \
+      {"PB_CMD_reset_final_values" "" "Custom Command"} \
+      {"PB_CMD_reset_output_mode" "" "Custom Command"} \
+      {"PB_CMD_reset_variables" "" "Custom Command"} \
+      {"PB_CMD_restaurar_direccion" "" "Custom Command"} \
+      {"PB_CMD_restore_kinematics" "" "Custom Command"} \
+      {"PB_CMD_restore_work_plane_change" "" "Custom Command"} \
+      {"PB_CMD_retract_move" "" "Custom Command"} \
+      {"PB_CMD_reverse_rotation_vector" "" "Custom Command"} \
+      {"PB_CMD_revert_dual_head_kin_vars" "" "Custom Command"} \
+      {"PB_CMD_revise_new_iks" "" "Custom Command"} \
+      {"PB_CMD_run_postprocess" "" "Custom Command"} \
+      {"PB_CMD_salida_label_acabado" "" "Custom Command"} \
+      {"PB_CMD_salida_label_fresado" "" "Custom Command"} \
+      {"PB_CMD_salida_label_taladro" "" "Custom Command"} \
+      {"PB_CMD_salida_lbl100" "" "Custom Command"} \
+      {"PB_CMD_salida_lbl101" "" "Custom Command"} \
+      {"PB_CMD_save_RPM" "" "Custom Command"} \
+      {"PB_CMD_save_axis_leader" "" "Custom Command"} \
+      {"PB_CMD_save_kinematics" "" "Custom Command"} \
+      {"PB_CMD_save_last_z" "" "Custom Command"} \
+      {"PB_CMD_select_kinematics" "" "Custom Command"} \
+      {"PB_CMD_set_csys" "" "Custom Command"} \
+      {"PB_CMD_set_cycle_plane" "" "Custom Command"} \
+      {"PB_CMD_set_default_dpp_value" "" "Custom Command"} \
+      {"PB_CMD_set_flag_mov_ini" "" "Custom Command"} \
+      {"PB_CMD_set_mode_waxis" "" "Custom Command"} \
+      {"PB_CMD_set_mode_zaxis" "" "Custom Command"} \
+      {"PB_CMD_set_output_unit" "" "Custom Command"} \
+      {"PB_CMD_set_principal_axis" "" "Custom Command"} \
+      {"PB_CMD_spindle_off" "" "Custom Command"} \
+      {"PB_CMD_spindle_orient" "" "Custom Command"} \
+      {"PB_CMD_start_of_alignment_character" "" "Custom Command"} \
+      {"PB_CMD_start_of_operation_force" "" "Custom Command"} \
+      {"PB_CMD_start_of_operation_force_addresses" "" "Custom Command"} \
+      {"PB_CMD_suavizado_operacion" "" "Custom Command"} \
+      {"PB_CMD_tiempo_op" "" "Custom Command"} \
+      {"PB_CMD_tiempo_total" "" "Custom Command"} \
+      {"PB_CMD_tipo_avance" "" "Custom Command"} \
+      {"PB_CMD_tipo_operacion" "" "Custom Command"} \
+      {"PB_CMD_tool_change_force_addresses" "" "Custom Command"} \
+      {"PB_CMD_unclamp_fifth_axis" "" "Custom Command"} \
+      {"PB_CMD_unclamp_fourth_axis" "" "Custom Command"} \
+      {"PB_CMD_unset_flag_mov_ini" "" "Custom Command"} \
+      {"PB_CMD_update_A-B" "" "Custom Command"} \
+      {"PB_CMD_update_A-B-C" "" "Custom Command"} \
+      {"PB_CMD_update_A-C" "" "Custom Command"} \
+      {"PB_CMD_update_B-C" "" "Custom Command"} \
+      {"PB_CMD_update_directo" "" "Custom Command"} \
+      {"PB_CMD_uplevel_MOM_BLK_FORM" "" "Custom Command"} \
+      {"PB_CMD_uplevel_MOM_Ciclo_208" "" "Custom Command"} \
+      {"PB_CMD_uplevel_MOM_Refrigerante_EUSKO" "" "Custom Command"} \
+      {"PB_CMD_uplevel_MOM_catch_warning" "" "Custom Command"} \
+      {"PB_CMD_uplevel_MOM_ciclo_32" "" "Custom Command"} \
+      {"PB_CMD_uplevel_MOM_creacion_label_taladro" "" "Custom Command"} \
+      {"PB_CMD_uplevel_MOM_eje_compensar" "" "Custom Command"} \
+      {"PB_CMD_uplevel_MOM_ejes_paralelos" "" "Custom Command"} \
+      {"PB_CMD_uplevel_MOM_linear_move" "" "Custom Command"} \
+      {"PB_CMD_uplevel_MOM_modo_maquina" "" "Custom Command"} \
+      {"PB_CMD_uplevel_MOM_rapid_move" "" "Custom Command"} \
+      {"PB_CMD_uplevel_MOM_user" "" "Custom Command"} \
+      {"PB_CMD_uplevel_ROTARY_AXIS_RETRACT" "" "Custom Command"} \
+      {"PB_CMD_uplevel_ciclos" "" "Custom Command"} \
+      {"PB_CMD_uplevel_creacion_label_acabado" "" "Custom Command"} \
+      {"PB_CMD_uplevel_creacion_label_fresado" "" "Custom Command"} \
+      {"PB_CMD_uplevel_creacion_label_fresado_old" "" "Custom Command"} \
+      {"PB_CMD_uplevel_refrigeracion" "" "Custom Command"} \
+      {"PB_CMD_valores_giro_cabezal" "" "Custom Command"} \
+      {"PB_CMD_variables_iniciales" "" "Custom Command"} \
+      {"PB_CMD_variables_iniciales_A" "" "Custom Command"} \
+      {"PB_CMD_variables_labels" "" "Custom Command"} \
+      {"PB_CMD_variables_post_viejos" "" "Custom Command"} \
+      {"PB_CMD_verify_RPM" "" "Custom Command"} \
+      {"PB_CMD_verify_RPM_1" "" "Custom Command"} \
+      {"PB_CMD_zw_before_motion" "" "Custom Command"}
+{Operator_Message} \
+      {"comment_blk" "=========================" "Operator Message"} \
+      {"comment_blk_2" "=========================" "Operator Message"}
+{PB_Spindle} \
+      {"" "" ""}
+{PB_ZeroFmt} \
+      {"$zero_int_fmt" "Zero_int" ""} \
+      {"$zero_real_fmt" "Zero_real" ""}
+{VNC_Instruction} \
+      {"" "" ""}
+{PB_Rapid} \
+      {"$pb_rapid_1" "rapid_traverse" ""} \
+      {"$pb_rapid_2" "" ""}
+## MOM SYS VARIABLES END
+
+## FUNCTION INFO START
+{CYCL_200} \
+      {"CYCL DEF 200" " " " "  "" "1" "="  {System heidenhain_conv_CYCLE200 $gPB(func,help,heidenhain,cycle_200)}} \
+      {{"Q200" "$mom_cycle_rapid_to"  "Numeral" "4"  "1" "4"} \
+       {"Q201" "$mom_cycle_feed_to"  "Numeral" "4"  "1" "4"} \
+       {"Q206" "$mom_cycle_feed_rate"  "Numeral" "4"  "1" "3"} \
+       {"Q202" "$cycle_peck_size"  "Numeral" "4"  "1" "4"} \
+       {"Q210" "0"  "Text String" "2"  "1" "4"} \
+       {"Q203" "$mom_pos(2)"  "Numeral" "4"  "1" "4"} \
+       {"Q204" "$cm_return_pos"  "Numeral" "4"  "1" "4"} \
+       {"Q211" "$mom_cycle_delay"  "Numeral" "4"  "1" "3"}}
+{CYCL_201} \
+      {"CYCL DEF 201" " " " "  "" "1" "="  {System heidenhain_conv_CYCLE201 $gPB(func,help,heidenhain,cycle_201)}} \
+      {{"Q200" "$mom_cycle_rapid_to"  "Numeral" "4"  "1" "4"} \
+       {"Q201" "$mom_cycle_feed_to"  "Numeral" "4"  "1" "4"} \
+       {"Q206" "$mom_cycle_feed_rate"  "Numeral" "4"  "1" "3"} \
+       {"Q211" "$mom_cycle_delay"  "Numeral" "4"  "1" "3"} \
+       {"Q208" "0"  "Text String" "2"  "1" "4"} \
+       {"Q203" "$mom_pos(2)"  "Numeral" "4"  "1" "4"} \
+       {"Q204" "$cm_return_pos"  "Numeral" "4"  "1" "4"}}
+{CYCL_207} \
+      {"CYCL DEF 207" " " " "  "" "1" "="  {System heidenhain_conv_CYCLE207 $gPB(func,help,heidenhain,cycle_207)}} \
+      {{"Q200" "$mom_cycle_rapid_to"  "Numeral" "4"  "1" "4"} \
+       {"Q201" "$mom_cycle_feed_to"  "Numeral" "4"  "1" "4"} \
+       {"Q239" "$dpp_TNC_cycle_thread_pitch"  "Numeral" "4"  "1" "3"} \
+       {"Q203" "$mom_pos(2)"  "Numeral" "4"  "1" "4"} \
+       {"Q204" "$cm_return_pos"  "Numeral" "4"  "1" "4"}}
+{CYCL_209} \
+      {"CYCL DEF 209" " " " "  "" "1" "="  {System heidenhain_conv_CYCLE209 $gPB(func,help,heidenhain,cycle_209)}} \
+      {{"Q200" "$mom_cycle_rapid_to"  "Numeral" "4"  "1" "4"} \
+       {"Q201" "$mom_cycle_feed_to"  "Numeral" "4"  "1" "4"} \
+       {"Q239" "$dpp_TNC_cycle_thread_pitch"  "Numeral" "4"  "1" "3"} \
+       {"Q203" "$mom_pos(2)"  "Numeral" "4"  "1" "4"} \
+       {"Q204" "$js_return_pos"  "Numeral" "4"  "1" "4"} \
+       {"Q257" "$mom_cycle_step1"  "Numeral" "4"  "1" "4"} \
+       {"Q256" "$dpp_TNC_cycle_step_clearance"  "Numeral" "4"  "1" "4"} \
+       {"Q336" "$mom_cycle_orient"  "Numeral" "4"  "1" "4"}}
+{CYCL_262} \
+      {"CYCL DEF 262" " " " "  "" "1" "="  {System heidenhain_conv_CYCLE262 $gPB(func,help,heidenhain,cycle_262)}} \
+      {{"Q335" "$mom_heidenhain_nominal_diameter"  "Numeral" "4"  "1" "4"} \
+       {"Q239" "$dpp_TNC_cycle_thread_pitch"  "Numeral" "4"  "1" "3"} \
+       {"Q201" "$mom_cycle_feed_to"  "Numeral" "4"  "1" "4"} \
+       {"Q355" "$mom_heidenhain_threads_per_step"  "Numeral" "4"  "1" "4"} \
+       {"Q253" "$mom_heidenhain_prepos_feedrate"  "Numeral" "4"  "1" "4"} \
+       {"Q351" "$mom_heidenhain_milling_type"  "Numeral" "4"  "1" "4"} \
+       {"Q200" "$mom_cycle_rapid_to"  "Numeral" "4"  "1" "4"} \
+       {"Q203" "$mom_pos(2)"  "Numeral" "4"  "1" "4"} \
+       {"Q204" "$js_return_pos"  "Numeral" "4"  "1" "4"} \
+       {"Q207" "$mom_heidenhain_milling_feedrate"  "Numeral" "3"  "1" "4"}}
+{CYCL_202} \
+      {"CYCL DEF 202" " " " "  "" "1" "="  {System heidenhain_conv_CYCLE202 $gPB(func,help,heidenhain,cycle_202)}} \
+      {{"Q200" "$mom_cycle_rapid_to"  "Numeral" "4"  "1" "4"} \
+       {"Q201" "$mom_cycle_feed_to"  "Numeral" "4"  "1" "4"} \
+       {"Q206" "$mom_cycle_feed_rate"  "Numeral" "4"  "1" "3"} \
+       {"Q211" "$mom_cycle_delay"  "Numeral" "4"  "1" "3"} \
+       {"Q208" "0"  "Text String" "2"  "1" "4"} \
+       {"Q203" "$mom_pos(2)"  "Numeral" "4"  "1" "4"} \
+       {"Q204" "$cm_return_pos"  "Numeral" "4"  "1" "4"} \
+       {"Q214" "$mom_itnc_bore_q214"  "Text String" "2"  "1" "4"} \
+       {"Q336" "$mom_cycle_orient"  "Numeral" "4"  "1" "4"}}
+{CYCL_204} \
+      {"CYCL DEF 204" " " " "  "" "1" "="  {System heidenhain_conv_CYCLE204 $gPB(func,help,heidenhain,cycle_204)}} \
+      {{"Q200" "$mom_cycle_rapid_to"  "Numeral" "4"  "1" "4"} \
+       {"Q249" "$mom_heidenhain_depth_of_counterbore"  "Numeral" "4"  "1" "4"} \
+       {"Q250" "$mom_heidenhain_material_thickness"  "Numeral" "4"  "1" "3"} \
+       {"Q251" "$mom_heidenhain_off_center_distance"  "Numeral" "4"  "1" "4"} \
+       {"Q252" "$mom_heidenhain_tool_edge_height"  "Numeral" "4"  "1" "4"} \
+       {"Q253" "$mom_heidenhain_prepositioning_feedrate"  "Numeral" "4"  "1" "4"} \
+       {"Q254" "$mom_cycle_feed_rate"  "Numeral" "4"  "1" "4"} \
+       {"Q255" "0"  "Text String" "2"  "1" "4"} \
+       {"Q203" "$mom_pos(2)"  "Numeral" "4"  "1" "4"} \
+       {"Q204" "$cm_return_pos"  "Numeral" "4"  "1" "4"} \
+       {"Q214" "$mom_heidenhain_disengaging_direction"  "Numeral" "5"  "1" "3"} \
+       {"Q236" "$mom_heidenhain_spindile_angle"  "Numeral" "3"  "1" "4"}}
+{CYCL_CALL} \
+      {"CYCL CALL" "" ""  "" "0" ""  {Custom}} \
+      {}
+{CYCL_NURBS} \
+      {"SPL" "" " "  "" "1" ""  {Custom}} \
+      {{"X" "$mom_nurbs_points_x"  "Numeral" "4"  "1" "4"} \
+       {"Y" "$mom_nurbs_points_y"  "Numeral" "4"  "1" "4"} \
+       {"Z" "$mom_nurbs_points_z"  "Numeral" "4"  "1" "4"} \
+       {"K3X" "$mom_nurbs_co_efficient_0"  "Numeral" "4"  "1" "4"} \
+       {"K2X" "$mom_nurbs_co_efficient_1"  "Numeral" "4"  "1" "4"} \
+       {"K1X" "$mom_nurbs_co_efficient_2"  "Numeral" "4"  "1" "4"} \
+       {"K3Y" "$mom_nurbs_co_efficient_3"  "Numeral" "4"  "1" "4"} \
+       {"K2Y" "$mom_nurbs_co_efficient_4"  "Numeral" "4"  "1" "4"} \
+       {"K1Y" "$mom_nurbs_co_efficient_5"  "Numeral" "4"  "1" "4"} \
+       {"K3Z" "$mom_nurbs_co_efficient_6"  "Numeral" "4"  "1" "4"} \
+       {"K2Z" "$mom_nurbs_co_efficient_7"  "Numeral" "4"  "1" "4"} \
+       {"K1Z" "$mom_nurbs_co_efficient_8"  "Numeral" "4"  "1" "4"}}
+{just_mcall_sinumerik} \
+      {"CYCL DEF" "" ""  "" "0" ""  {Custom}} \
+      {}
+{CYCL_206} \
+      {"CYCL DEF 206" " " " "  "" "1" "="  {Custom heidenhain_conv_CYCLE207 {$gPB(func,help,heidenhain,cycle_207)}}} \
+      {{"Q200" "$mom_cycle_rapid_to"  "Numeral" "4"  "1" "4"} \
+       {"Q201" "$mom_cycle_feed_to"  "Numeral" "4"  "1" "4"} \
+       {"Q206" "$dpp_TNC_cycle_tap_feed"  "Numeral" "4"  "1" "3"} \
+       {"Q211" "$mom_cycle_delay"  "Numeral" "4"  "1" "3"} \
+       {"Q203" "$mom_pos(2)"  "Numeral" "4"  "1" "4"} \
+       {"Q204" "$cm_return_pos"  "Numeral" "4"  "1" "4"}}
+{CYCL_247} \
+      {"CYCL DEF 247 FIJAR PUNTO DE REFERENCIA" " " " "  "" "1" "="  {Custom heidenhain_conv_CYCLE201 {$gPB(func,help,heidenhain,cycle_201)}}} \
+      {{"Q339" "$mom_fixture_offset_value"  "Numeral" "3"  "1" "4"}}
+{CYCL_390} \
+      {"CYCL DEF 390 CAMBIO CABEZALES" " " " "  "" "1" "="  {Custom heidenhain_conv_CYCLE201 {$gPB(func,help,heidenhain,cycle_201)}}} \
+      {{"Q1534" "$valor_q1534"  "Numeral" "4"  "1" "4"}}
+{CYCL_397} \
+      {"CYCL DEF 397 CICLO CABEZAL" " " " "  "" "1" "="  {Custom heidenhain_conv_CYCLE201 {$gPB(func,help,heidenhain,cycle_201)}}} \
+      {{"Q1507" "$B"  "Text String" "4"  "1" "4"} \
+       {"Q1506" "$A"  "Text String" "4"  "1" "4"}}
+{CYCL_397_2} \
+      {"CYCL DEF 397 CICLO CABEZAL" " " " "  "" "1" "="  {Custom}} \
+      {{"Q1507" "$B"  "Numeral" "4"  "1" "4"} \
+       {"Q1506" "$A"  "Numeral" "4"  "1" "4"}}
+{CYCL_397_1} \
+      {"CYCL DEF 397 CICLO CABEZAL" " " " "  "" "1" "="  {Custom heidenhain_conv_CYCLE201 {$gPB(func,help,heidenhain,cycle_201)}}} \
+      {{"Q1507" "$valor_q121"  "Text String" "3"  "1" "4"} \
+       {"Q1506" "$valor_q120"  "Text String" "2"  "1" "4"}}
+{CYCL_208} \
+      {"CYCL DEF 208" " " " "  "" "1" "="  {Custom heidenhain_conv_CYCLE202 {$gPB(func,help,heidenhain,cycle_202)}}} \
+      {{"Q200" "$mom_cycle_rapid_to"  "Numeral" "4"  "1" "4"} \
+       {"Q201" "$mom_cycle_feed_to"  "Numeral" "4"  "1" "4"} \
+       {"Q206" "$feed"  "Numeral" "4"  "1" "1"} \
+       {"Q334" "$mom_Profundidad_Pasada"  "Numeral" "4"  "1" "4"} \
+       {"Q203" "$mom_pos(2)"  "Numeral" "4"  "1" "4"} \
+       {"Q204" "$cm_return_pos"  "Numeral" "4"  "1" "4"} \
+       {"Q335" "$mom_Diametro_Nominal"  "Numeral" "5"  "1" "3"} \
+       {"Q342" "$mom_Diametro_Pretaladrado"  "Numeral" "2"  "1" "4"} \
+       {"Q351" "1"  "Text String" "2"  "1" "4"}}
+## FUNCTION INFO END
+

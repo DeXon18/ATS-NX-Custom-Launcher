@@ -1,0 +1,33 @@
+!
+! Customer menu file
+!
+! Contains button definitions to be used in
+! toolbars and Ribbon files
+!
+! Modificado por Hugo 02/02/2018
+
+VERSION 120
+
+EDIT UG_GATEWAY_MAIN_MENUBAR
+
+TITLE ZORROTZ
+
+TOP_MENU
+	CASCADE_BUTTON CUSTOMER_MENU
+	LABEL Documentacion
+	
+END_OF_TOP_MENU
+
+MENU CUSTOMER_MENU
+	
+
+	
+    BUTTON TOOLHOLDER
+	LABEL Toolholder
+	RIBBON_LABEL Ribbon Button3
+	TOOLBAR_LABEL Creacion Porta
+	BITMAP ${UGII_USER_DIR}\bitmaps\PDF.bmp
+	ACTIONS "start /b %UGII_USER_DIR%\script\HolderDefinition_README.pdf"
+	
+END_OF_MENU
+

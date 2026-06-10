@@ -21,7 +21,7 @@ function Get-NxVersions {
     $VersionsDir = Join-Path $RootPath "config\versions"
     $Versions = @()
     if (Test-Path $VersionsDir) {
-        $Files = Get-ChildItem -Path $VersionsDir -Filter "*.config" | Where-Object { $_.Name -ne "TEMPLATE.config" }
+        $Files = Get-ChildItem -Path $VersionsDir -Filter "*.json" | Where-Object { $_.Name -ne "TEMPLATE.json" }
         foreach ($File in $Files) {
             $Versions += Get-Content $File.FullName -Raw | ConvertFrom-Json
         }

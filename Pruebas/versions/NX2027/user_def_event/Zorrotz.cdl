@@ -1,0 +1,102 @@
+#################### USER DEFINED EVENTS #####################################
+MACHINE TNC
+#---------------------------------------------------------------------------
+
+#-----------------------------------------------------------------
+#-----------------------------------------------------------------
+ EVENT POS_ALT
+{
+   UI_LABEL "Poscion alternativa Cabezal"
+   CATEGORY MILL DRILL
+      
+   PARAM pos_alt
+   {
+      TYPE b
+      DEFVAL "TRUE"
+      UI_LABEL "Posicion alternativa Cabezal"
+   }
+} 
+
+#-----------------------------------------------------------------
+EVENT ciclo_32
+{
+	POST_EVENT "ciclo_32"
+	UI_LABEL "Ciclo 32 Tolerancia"
+	CATEGORY Mill Drill
+		
+	PARAM Activar_tol_32
+	{
+      TYPE o
+      DEFVAL "ACTIVE"
+      OPTIONS "ACTIVE","INACTIVE"
+      UI_LABEL "Status"
+    }
+	
+	PARAM valor_tol
+   {
+	  TYPE   d
+      DEFVAL "0.03"
+      UI_LABEL "Valor Tolerancia: T"
+   }
+   
+	PARAM hsc
+   {
+      TYPE   i
+      DEFVAL "0"
+      UI_LABEL "HSC: 0 (Acabado) / 1 (Desbaste)"
+   }
+}
+
+#--------------------------------------------------------------------
+
+
+#---------------------------------------------------------------------------
+EVENT Refrigerante_EUSKO
+{
+   POST_EVENT "Refrigeracion_EUSKO"
+   UI_LABEL "Refrigeracion"
+   CATEGORY MILL DRILL LATHE
+
+   PARAM Tipo_ref
+   {
+      TYPE o
+      DEFVAL "EXTERNA"
+      OPTIONS "EXTERNA","INTERNA","DESACTIVAR"
+      UI_LABEL "Selecciona tipo taladrina"
+   }
+   
+   PARAM texto_refrigeracion
+   {
+      TYPE   s
+      TOGGLE Off
+      UI_LABEL "Texto al operario"
+   }
+}
+
+
+#-----------------------------------------------------------------
+EVENT Introducir_comando
+{
+   UI_LABEL "Introducir Comando"
+
+   PARAM introducir_comando
+   {
+      TYPE   s
+      TOGGLE   On
+      UI_LABEL "Introducir comando"
+   }
+}
+
+#-----------------------------------------------------------------
+EVENT operator_message
+{
+   UI_LABEL "Operator Message"
+
+   PARAM operator_message
+   {
+      TYPE   s
+      TOGGLE   On
+      UI_LABEL "Operator Message"
+   }
+}
+

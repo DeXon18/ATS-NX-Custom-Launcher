@@ -1,0 +1,11 @@
+###############################################################################
+# template_post config file - Event Handler and Definition files for 
+#                             Generic Machine
+#
+# Fichero personalizado de Analisis y Simulación
+#
+###############################################################################
+#Postprocesadores
+Soraluce_FLP8000,${NX_CLIENTE_CAM_POST_DIR}Soraluce_FLP8000.tcl,${NX_CLIENTE_CAM_POST_DIR}Soraluce_FLP8000.def
+Ibarmia ZV55_TNC530,${NX_CLIENTE_CAM_POST_DIR}Ibarmia ZV55_TNC530.tcl,${NX_CLIENTE_CAM_POST_DIR}Ibarmia ZV55_TNC530.def
+Soraluce_TR25,${NX_CLIENTE_CAM_POST_DIR}Soraluce_TR25.tcl,${NX_CLIENTE_CAM_POST_DIR}Soraluce_TR25.def

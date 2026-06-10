@@ -1,0 +1,9 @@
+###############################################################################
+# template_post config file - Event Handler and Definition files for 
+#                             Generic Machine
+#
+# Fichero personalizado de Analisis y Simulación
+#
+###############################################################################
+#Postprocesadores
+Soraluce_FLP8000,${NX_CLIENTE_CAM_POST_DIR}Soraluce_FLP8000.tcl,${NX_CLIENTE_CAM_POST_DIR}Soraluce_FLP8000.def
