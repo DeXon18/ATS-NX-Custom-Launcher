@@ -1,4 +1,4 @@
-﻿# ==============================================================================
+# ==============================================================================
 # Start-NXLauncher.ps1
 # Script principal del lanzador.
 # ==============================================================================
@@ -102,11 +102,6 @@ try {
     Start-Sleep -Seconds 3
 } catch {
     Show-AtsError "Error fatal: $_"
-    Wait-AtsKeyPress
-}
-    Start-Sleep -Seconds 3
-}
-catch {
-    Show-AtsError "Error fatal: $_"
+    Write-AtsTrace -Message "Error fatal: $_" -Type "ERROR"
     Wait-AtsKeyPress
 }
