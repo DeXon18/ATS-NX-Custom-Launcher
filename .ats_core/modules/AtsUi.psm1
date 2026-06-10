@@ -82,3 +82,16 @@ function Show-AtsInfo {
 }
 
 Export-ModuleMember -Function * -Variable *
+}
+
+function Show-AtsInfo {
+    param ([string]$Message, [switch]$NoNewline)
+    if ($NoNewline) {
+        Write-Host "   [*] $Message" -NoNewline -ForegroundColor $global:colorInfo
+    } else {
+        Write-Host "   [*] $Message" -ForegroundColor $global:colorInfo
+    }
+    Write-AtsTrace -Message $Message -Type "INFO"
+}
+
+Export-ModuleMember -Function * -Variable *

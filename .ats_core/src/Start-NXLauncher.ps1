@@ -1,4 +1,4 @@
-# ==============================================================================
+﻿# ==============================================================================
 # Start-NXLauncher.ps1
 # Script principal del lanzador.
 # ==============================================================================
@@ -99,6 +99,11 @@ try {
     Start-Process -FilePath $NxExe -WorkingDirectory $RootPath
     
     Show-AtsSuccess "NX iniciado correctamente."
+    Start-Sleep -Seconds 3
+} catch {
+    Show-AtsError "Error fatal: $_"
+    Wait-AtsKeyPress
+}
     Start-Sleep -Seconds 3
 }
 catch {
