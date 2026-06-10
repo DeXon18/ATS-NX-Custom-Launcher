@@ -19,3 +19,6 @@ Desktop.ini
 # Ideas y pruebas
 X_Ideas/
 
+# Archivos del Agente IA
+.agent/
+.agent
