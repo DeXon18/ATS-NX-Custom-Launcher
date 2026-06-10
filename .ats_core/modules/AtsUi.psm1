@@ -1,4 +1,4 @@
-﻿# ==============================================================================
+# ==============================================================================
 # Módulo AtsUi.psm1
 # Contiene la lógica visual de consola, constantes de colores y formateo.
 # ==============================================================================
@@ -57,31 +57,31 @@ function Wait-AtsKeyPress {
     }
 }
 
+function Write-AtsTrace {
+    param ([string]$Message, [string]$Type = "INFO")
+    if ($global:AtsTraceFile) {
+        $Timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+        $LogLine = "[$Timestamp] [$Type] $Message"
+        Add-Content -Path $global:AtsTraceFile -Value $LogLine -ErrorAction SilentlyContinue
+    }
+}
+
 function Show-AtsSuccess {
     param ([string]$Message)
     Write-Host "   [+] $Message" -ForegroundColor $global:colorSuccess
+    Write-AtsTrace -Message $Message -Type "SUCCESS"
 }
 
 function Show-AtsWarning {
     param ([string]$Message)
     Write-Host "   [!] $Message" -ForegroundColor $global:colorWarning
+    Write-AtsTrace -Message $Message -Type "WARNING"
 }
 
 function Show-AtsError {
     param ([string]$Message)
     Write-Host "   [x] $Message" -ForegroundColor $global:colorError
-}
-
-function Show-AtsInfo {
-    param ([string]$Message, [switch]$NoNewline)
-    if ($NoNewline) {
-        Write-Host "   [*] $Message" -NoNewline -ForegroundColor $global:colorInfo
-    } else {
-        Write-Host "   [*] $Message" -ForegroundColor $global:colorInfo
-    }
-}
-
-Export-ModuleMember -Function * -Variable *
+    Write-AtsTrace -Message $Message -Type "ERROR"
 }
 
 function Show-AtsInfo {
